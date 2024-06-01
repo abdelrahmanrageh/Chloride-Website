@@ -1,0 +1,28 @@
+.container {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  /* margin-top: 6rem; */
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+/*
+.prices {
+  position: relative;
+  z-index: 1;
+}
+
+.prices::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+   left: 0;
+  top: 0; 
+  box-shadow: 3px 100px 100px rgba(111, 140, 201, 0.45);
+  background: linear-gradient(55deg, rgb(252 255 243), rgb(255 90 90 / 12%));
+  opacity: 0.1;
+  transform: skewX(-10deg) skewY(-10deg);
+}
+*/
