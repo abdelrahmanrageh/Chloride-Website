@@ -154,7 +154,7 @@ function PricePlans() {
           
         </div>
 
-         {/* Gold Plan  */}
+        {/* Gold Plan  */}
         <div className="w-full max-w-lg p-8 rounded-3xl bg-gray-950 border-gray-800 shadow-lightBlueShadow">
           {/* title */}
           <h5 className="mb-4 text-2xl text-[#FFE500] font-semibold">
@@ -286,7 +286,7 @@ function PricePlans() {
           </ul>
           {/* Get  */}
           <a
-            href="https://mega.nz/file/Rx9wXRiZ#BWnk9DQ9T3JTwF69QE2hnskT8l1uJR9-De5RcFhwtZ4"
+            href="https://wa.me/201016754891?text=Hello%2C%20I%27m%20Interested%20in%20buying%20the%20premium%20version%20of%20ChlorideOS"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white mt-1 focus:ring-4 focus:outline-none  bg-lightBlue hover:bg-blue-700 transition-all focus:ring-blue-900 font-medium rounded-3xl text-sm px-5 py-2.5 inline-flex justify-center w-full text-center"
@@ -444,7 +444,7 @@ function PricePlans() {
           </ul>
           {/* Get  */}
           <a
-            href="https://wa.me/201016754891?text=Hello%2C%20I%27m%20Interested%20in%20buying%20the%20premium%20version%20of%20ChlorideOS"
+            href="https://mega.nz/file/Rx9wXRiZ#BWnk9DQ9T3JTwF69QE2hnskT8l1uJR9-De5RcFhwtZ4"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white mt-1 focus:ring-4 focus:outline-none  bg-lightBlue hover:bg-blue-700 transition-all focus:ring-blue-900 font-medium rounded-3xl text-sm px-5 py-2.5 inline-flex justify-center w-full text-center"
@@ -452,8 +452,6 @@ function PricePlans() {
             Get
           </a>
         </div>
-
-       
 
         {/* backgound gradient */}
         <div
