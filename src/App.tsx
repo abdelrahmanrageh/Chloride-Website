@@ -23,7 +23,7 @@ export default function App() {
             Download
           </div>
           <img className='sm:max-h-60 max-h-44 sm:-bottom-5 sm:-left-5 shadow-whiteShadow absolute -bottom-32 left-10 ' src={properties} alt="" />
-          <p className='mb-20 text-gray-400 text-xs mt-2'>ChlorideOS v1.0 (90MB)</p>
+          <p className='mb-20 text-gray-400 text-xs mt-2'>FREE ChlorideOS v1.0 (90MB)</p>
         </HeroSection>
 
         <VideosSection />
