@@ -2,10 +2,10 @@
 function Features() {
   return (
     <>
-      <div className="relative features flex  mt-40  lg:flex-row flex-col">
+      <div className="relative features flex  mt-40  md:flex-row flex-col">
         <div
           // data-aos="fade-left"
-          className="flex flex-col  mt-16  items-center lg:justify-start justify-center lg:w-1/4 hover:scale-105 hover:shadow-lightBlueShadow rounded-3xl transition-all p-5">
+          className="flex flex-col  mt-16  items-center lg:justify-start justify-center lg:w-1/3 hover:scale-105 hover:shadow-lightBlueShadow rounded-3xl transition-all p-5">
           <svg
             className="h-20 m-4"
             xmlns="http://www.w3.org/2000/svg"
@@ -17,11 +17,11 @@ function Features() {
             />
           </svg>
           <h2 className="text-lg font-semibold">Much better performance</h2>
-          <p className="mt-5 lg:w-3/4 sm:w-1/2 text-gray-400">
+          <p className="mt-5  w-full text-gray-400">
             Enjoy faster and stronger performance by more than 25%
           </p>
         </div>
-        <div className="flex flex-col  mt-16  items-center lg:justify-start justify-center lg:w-1/4 hover:scale-105 hover:shadow-lightBlueShadow rounded-3xl transition-all p-5">
+        <div className="flex flex-col  mt-16  items-center lg:justify-start justify-center lg:w-1/3 hover:scale-105 hover:shadow-lightBlueShadow rounded-3xl transition-all p-5">
           <svg
             className="h-20 m-4"
             xmlns="http://www.w3.org/2000/svg"
@@ -33,11 +33,11 @@ function Features() {
             />
           </svg>
           <h2 className="text-lg font-semibold">Lighter than light</h2>
-          <p className="mt-5 lg:w-3/4 sm:w-1/2 text-gray-400">
+          <p className="mt-5 w-full text-gray-400">
             Get lighter than light Windows without useless apllication
           </p>
         </div>
-        <div className="flex flex-col  mt-16 items-center lg:justify-start justify-center lg:w-1/4 hover:scale-105 hover:shadow-lightBlueShadow rounded-3xl transition-all p-5">
+        <div className="flex flex-col  mt-16 items-center lg:justify-start justify-center lg:w-1/3 hover:scale-105 hover:shadow-lightBlueShadow rounded-3xl transition-all p-5">
           <svg
             className="h-20 m-4"
             xmlns="http://www.w3.org/2000/svg"
@@ -49,11 +49,11 @@ function Features() {
             />
           </svg>
           <h2 className="text-lg font-semibold">Privacy in chloride</h2>
-          <p className="mt-5 lg:w-3/4 sm:w-1/2 text-gray-400">
+          <p className="mt-5  w-full text-gray-400">
             Completely get rid of Windows defender{" "}
           </p>
         </div>
-        <div className="flex flex-col mt-16  items-center lg:justify-start justify-center lg:w-1/4 hover:scale-105 hover:shadow-lightBlueShadow rounded-3xl transition-all p-5">
+        {/* <div className="flex flex-col mt-16  items-center lg:justify-start justify-center lg:w-1/4 hover:scale-105 hover:shadow-lightBlueShadow rounded-3xl transition-all p-5">
           <svg
             className="h-20 m-4"
             xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,7 @@ function Features() {
             Get more than 50 tools and 100 commands to improve and customize
             your device
           </p>
-        </div>
+        </div> */}
         
         {/* background gradient */}
         <div

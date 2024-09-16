@@ -1,7 +1,4 @@
-// import { CalendarDaysIcon, HandRaisedIcon } from '@heroicons/react/24/outline'
-
-import { AiFillInstagram } from "react-icons/ai";
-import { FaFacebook, FaYoutube } from "react-icons/fa";
+import { FaDiscord, FaFacebook, FaTelegram, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
@@ -115,12 +112,12 @@ export default function Footer() {
 
             {/* Logos */}
             <div className="flex mt-4 sm:justify-center sm:mt-0">
-              
               {/* facebook */}
               <a
                 href="https://www.facebook.com/ProjectChloride"
                 className="text-gray-500  hover:text-gray-900 dark:hover:text-white"
                 target="_blank"
+                rel="noreferrer noopener"
               >
                 <FaFacebook className="h-5 w-5" />
                 <span className="sr-only">Facebook page</span>
@@ -129,21 +126,48 @@ export default function Footer() {
               {/* Youtube */}
               <a
                 href="https://www.youtube.com/@ChlorideOS/videos"
+                target="_blank"
+                rel="noreferrer noopener"
                 className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
               >
                 <FaYoutube className="h-5 w-5" />
                 <span className="sr-only">Twitter page</span>
               </a>
               
-              {/* Instagram */}
+              {/* whatsapp */}
               <a
-                href="https://www.instagram.com/projectchlorideos"
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://chat.whatsapp.com/EzDfW89EQt90yFHXTZFI2R"
                 className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
               >
-                <AiFillInstagram className="h-5 w-5" />
-                <span className="sr-only">Twitter page</span>
+                <FaWhatsapp className="h-5 w-5" />
+                <span className="sr-only">
+                    Whatsapp Channel
+                </span>
               </a>
-              
+
+              {/* discord */}
+              <a
+                href="https://discord.com/invite/mNPwpRt97Q"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+              >
+                <FaDiscord className="h-5 w-5" />
+                <span className="sr-only">Discord server</span>
+              </a>
+                  
+              {/* telegram */}
+              <a
+                href="https://t.me/chlorideos"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
+              >
+                <FaTelegram className="h-5 w-5" />
+                <span className="sr-only">Telegram Channel</span>
+              </a>
             </div>
           </div>
         </div>
