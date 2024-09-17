@@ -33,7 +33,7 @@ export default function App() {
           imageOneSrc={desktop}
         >
           <h2 className="bg-gradient-to-bl pb-3 from-purple-400 to-cyan-300 bg-clip-text text-transparent text-5xl text-left font-bold tracking-tight sm:text-6xl ">Need More Than This?</h2>
-          <p>Don't worry there is a premium version with 70% more tools than free version and with weekly updates, Just for 1$. Yeah less than your Espresso</p>
+          <p>Don't worry there is a premium version with 70% more tools than free version and with weekly updates, Just for ~3$. Yeah less than your Espresso</p>
           <div>
             Go to Premium
           </div>
