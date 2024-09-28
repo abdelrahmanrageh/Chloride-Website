@@ -17,7 +17,7 @@ function Features() {
             />
           </svg>
           <h2 className="text-lg font-semibold">Much better performance</h2>
-          <p className="mt-5  w-full text-gray-400">
+          <p className="mt-5  w-full text-gray-400 text-center">
             Enjoy faster and stronger performance by more than 25%
           </p>
         </div>
@@ -33,7 +33,7 @@ function Features() {
             />
           </svg>
           <h2 className="text-lg font-semibold">Lighter than light</h2>
-          <p className="mt-5 w-full text-gray-400">
+          <p className="mt-5 w-full text-gray-400 text-center">
             Get lighter than light Windows without useless apllication
           </p>
         </div>
@@ -49,7 +49,7 @@ function Features() {
             />
           </svg>
           <h2 className="text-lg font-semibold">Privacy in chloride</h2>
-          <p className="mt-5  w-full text-gray-400">
+          <p className="mt-5  w-full text-gray-400 text-center">
             Completely get rid of Windows defender{" "}
           </p>
         </div>
