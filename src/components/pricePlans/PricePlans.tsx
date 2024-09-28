@@ -11,9 +11,9 @@ function PricePlans() {
         {/* standard plan */}
         <div className="w-full max-w-lg p-8 rounded-3xl  bg-gray-950 border-gray-800 shadow-lightBlueShadow">
           {/* title */}
-          <h5 className="mb-4 text-2xl font-semibold text-gray-500 dark:text-gray-400">
+          <p className="mb-4 text-2xl font-semibold text-gray-500 dark:text-gray-400">
             Standard plan
-          </h5>
+          </p>
           <div className="flex items-baseline text-gray-900 dark:text-white">
             {/* Price */}
             <span className="text-5xl font-extrabold tracking-tight">FREE</span>
@@ -21,8 +21,10 @@ function PricePlans() {
           </div>
           {/* List of features */}
           <ul role="list" className="space-y-5 my-7">
-            {standardPlan.map((feature) => (
-              <li className="flex items-center">
+            {standardPlan.map((feature , index) => (
+              <li
+                key={index}
+                className="flex items-center">
                 <svg
                   className="flex-shrink-0 w-4 h-4 text-lightBlue "
                   aria-hidden="true"
@@ -51,10 +53,10 @@ function PricePlans() {
         {/* Gold Plan  */}
         <div className="w-full max-w-lg p-8 rounded-3xl bg-gray-950 border-gray-800 shadow-lightBlueShadow">
           {/* title */}
-          <h5 className="mb-4 text-2xl text-[#FFE500] font-semibold">
+          <p className="mb-4 text-2xl text-[#FFE500] font-semibold">
             Gold Plan
             {/* <small className="block text-yellow-100">3$ ( 1 time payment )</small> */}
-          </h5>
+          </p>
           <div className="flex items-baseline text-gray-900 dark:text-white">
             <span className="text-5xl font-extrabold tracking-tight">3</span>
             <span className="text-3xl font-semibold">$</span>
@@ -69,8 +71,10 @@ function PricePlans() {
           </span>
           {/* List of features */}
           <ul role="list" className="space-y-5 my-7">
-            {goldPlan.map((feature) => (
-              <li className="flex items-center">
+            {goldPlan.map((feature , index) => (
+              <li
+                key={index}
+                className="flex items-center">
                 <svg
                   className="flex-shrink-0 w-4 h-4 text-lightBlue "
                   aria-hidden="true"
@@ -100,9 +104,9 @@ function PricePlans() {
         {/* Chloride Tool Box */}
         <div className="w-full max-w-lg p-8 rounded-3xl   bg-gray-950 border-gray-800 shadow-lightBlueShadow">
           {/* title */}
-          <h5 className="mb-4 text-2xl text-lightBlue font-semibold ">
+          <p className="mb-4 text-2xl text-lightBlue font-semibold ">
             Ultimate Plan
-          </h5>
+          </p>
           <div className="flex items-baseline text-gray-900 dark:text-white">
             <span className="text-5xl font-extrabold tracking-tight">5</span>
             <span className="text-3xl font-semibold">$</span>
@@ -113,8 +117,10 @@ function PricePlans() {
           </span>
           {/* List of features */}
           <ul role="list" className="space-y-5 my-7">
-            {ultimatePlan.map((feature) => (
-              <li className="flex items-center">
+            {ultimatePlan.map((feature , index) => (
+              <li
+                key={index}
+                className="flex items-center">
                 <svg
                   className="flex-shrink-0 w-4 h-4 text-lightBlue "
                   aria-hidden="true"

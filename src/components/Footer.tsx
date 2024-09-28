@@ -1,4 +1,10 @@
-import { FaDiscord, FaFacebook, FaTelegram, FaWhatsapp, FaYoutube } from "react-icons/fa";
+import {
+  FaDiscord,
+  FaFacebook,
+  FaTelegram,
+  FaWhatsapp,
+  FaYoutube,
+} from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
@@ -6,57 +12,36 @@ export default function Footer() {
     <>
       <div className="relative isolate overflow-hidden pb-5 pt-16 sm:pt-24 lg:pt-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-
           {/* contact & info */}
-          <a
-            href="mailto:projectchloride@gmail.com"
-            className="mx-auto grid items-end  max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
+          <div className="mx-auto grid items-end  max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
             {/* Contact us box */}
-            <div
-              
-              className="max-w-xl lg:max-w-lg ring-1 p-5 rounded-xl hover:bg-[#ffffff0f] ring-gray-700 transition-all  cursor-pointer">
+            <a
+              href="mailto:projectchloride@gmail.com"
+              className="max-w-xl lg:max-w-lg ring-1 p-5 rounded-xl hover:bg-[#ffffff0f] ring-gray-700 transition-all  cursor-pointer"
+            >
               <MdEmail className="w-10 h-10 mb-8" />
               <h2 className="text-xl mb-1 font-semibold tracking-tight text-white sm:text-xl">
                 Contact US
               </h2>
               <h3 className="text-md  tracking-tight text-gray-400 sm:text-sm">
-              projectchloride@gmail.com
+                projectchloride@gmail.com
               </h3>
-              <div className="mt-6 flex max-w-md gap-x-4 ">
-                <label htmlFor="email-address" className="sr-only">
-                  Email address
-                </label>
-                {/* <input
-                  id="email-address"
-                  name="email"
-                  type="email"
-                  autoComplete="email"
-                  required
-                  className="min-w-0 flex-auto rounded-3xl border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
-                  placeholder="Enter your email"
-                /> */}
-                {/* <button
-                  type="submit"
-                  className="flex-none rounded-3xl bg-lightBlue  px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 transition-all"
-                >
-                  Send Email
-                </button> */}
-              </div>
-            </div>
+            </a>
 
             {/* Additional Infromation */}
             <div className="">
               <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-                
                 <div>
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                     Follow us
                   </h2>
                   <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                    <li className="mb-4">
+                    <li className="">
                       <a
                         href="https://www.facebook.com/ProjectChloride"
-                        className="hover:underline "
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="hover:underline mb-2 block"
                       >
                         Facebook
                       </a>
@@ -64,14 +49,26 @@ export default function Footer() {
                     <li>
                       <a
                         href="https://www.instagram.com/projectchlorideos"
-                        className="hover:underline"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="hover:underline mb-2 block"
                       >
                         Instagram
                       </a>
                     </li>
+                    <li>
+                      <a
+                        href="https://www.discord.com/invite/mNPwpRt97Q"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        className="hover:underline mb-2 block"
+                      >
+                        Discord
+                      </a>
+                    </li>
                   </ul>
                 </div>
-                <div>
+                {/* <div>
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                     Legal
                   </h2>
@@ -87,22 +84,30 @@ export default function Footer() {
                       </a>
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
             </div>
-          </a>
-          
+          </div>
         </div>
-        
+
+        {/* ------------------------------------------ */}
+
         {/* logos and copyright */}
         <div className="mx-auto w-full max-w-screen-xl p-4 pt-6 lg:pt-8">
-          <hr className="my-6 border-gray-200 w-full sm:mx-auto dark:border-gray-700 lg:my-8" /> 
+          <hr className="my-6 border-gray-200 w-full sm:mx-auto dark:border-gray-700 lg:my-8" />
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-500  ">
-            developed by <a className="underline" href="https://www.linkedin.com/in/abdelrahmanrageh/" target="_blank">Abdelrahman Rageh </a>
+            developed by{" "}
+            <a
+              className="underline"
+              href="https://www.linkedin.com/in/abdelrahmanrageh/"
+              target="_blank"
+            >
+              Abdelrahman Rageh{" "}
+            </a>
           </span>
           <div className="sm:flex sm:items-center sm:justify-between">
             <span className="text-sm text-gray-500 sm:text-center dark:text-gray-300">
-              {'  '}
+              {"  "}
               {new Date().getFullYear()} ©{" "}
               <a href="https://flowbite.com/" className="hover:underline">
                 ChlorideOS™
@@ -133,7 +138,7 @@ export default function Footer() {
                 <FaYoutube className="h-5 w-5" />
                 <span className="sr-only">Twitter page</span>
               </a>
-              
+
               {/* whatsapp */}
               <a
                 target="_blank"
@@ -142,9 +147,7 @@ export default function Footer() {
                 className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
               >
                 <FaWhatsapp className="h-5 w-5" />
-                <span className="sr-only">
-                    Whatsapp Channel
-                </span>
+                <span className="sr-only">Whatsapp Channel</span>
               </a>
 
               {/* discord */}
@@ -157,7 +160,7 @@ export default function Footer() {
                 <FaDiscord className="h-5 w-5" />
                 <span className="sr-only">Discord server</span>
               </a>
-                  
+
               {/* telegram */}
               <a
                 href="https://t.me/chlorideos"
@@ -185,7 +188,6 @@ export default function Footer() {
             }}
           />
         </div>
-        
       </div>
     </>
   );

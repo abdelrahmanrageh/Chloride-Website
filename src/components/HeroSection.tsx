@@ -1,6 +1,7 @@
 import React, { Children } from "react";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
 import { motion as m } from "framer-motion";
+import { Link } from "react-scroll";
 function HeroSection({
   children,
   imageOneSrc,
@@ -14,7 +15,7 @@ function HeroSection({
       {/* main text & button div */}
       <div className="flex items-start flex-col lg:max-w-md xl:max-w-lg">
         {childrenArray[0]}
-        <div className="mt-2  text-md text-gray-500 text-left lg:w-4/5 2xl:w-full">
+        <div className="mt-2  text-md text-gray-400 text-left lg:w-4/5 2xl:w-full">
           {childrenArray[1]}
         </div>
 
