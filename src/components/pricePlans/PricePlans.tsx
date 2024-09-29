@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { goldPlan, standardPlan, ultimatePlan } from "./pricePlansData";
+import { goldPlan, standardPlan, ultimatePlan } from "../../data/pricePlansData";
 
 function PricePlans() {
   return (

@@ -5,54 +5,17 @@ import {
   chlorideTweaks,
 } from "../../data/versionsData";
 import { FaDownload } from "react-icons/fa";
-import {motion as m} from "framer-motion";
-// const TrueIcon = () => (
-//   <div>
-//     <svg
-//       className="w-3 h-3 text-green-500"
-//       aria-hidden="true"
-//       xmlns="http://www.w3.org/2000/svg"
-//       fill="none"
-//       viewBox="0 0 16 12"
-//     >
-//       <path
-//         stroke="currentColor"
-//         strokeLinecap="round"
-//         strokeLinejoin="round"
-//         strokeWidth={2}
-//         d="M1 5.917 5.724 10.5 15 1.5"
-//       />
-//     </svg>
-//   </div>
-// );
-
-// const FalseIcon = () => (
-//   <div>
-//     <svg
-//       className="w-3 h-3 text-red-500"
-//       aria-hidden="true"
-//       xmlns="http://www.w3.org/2000/svg"
-//       fill="none"
-//       viewBox="0 0 14 14"
-//     >
-//       <path
-//         stroke="currentColor"
-//         strokeLinecap="round"
-//         strokeLinejoin="round"
-//         strokeWidth={2}
-//         d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
-//       />
-//     </svg>
-//   </div>
-// );
+import { motion as m } from "framer-motion";
 
 function DownloadPage() {
-  useEffect(() => { 
+  useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   const [os, setOs] = useState("windows10");
+
   const Windows10Table = () => {
     const [versions, setVersions] = useState(windows10Versions);
+
     useEffect(() => {
       if (os === "windows11") {
         setVersions(windows11Versions);
@@ -82,16 +45,22 @@ function DownloadPage() {
                 <div className="col-span-3 sm:overflow-y-hidden mx-auto max-h-24 overflow-y-auto text-left md:text-center text-gray-400">
                   {version.whatsNew}
                 </div>
-                <div className="sm:flex items-center hidden gap-x-2 justify-center text-gray-400  cursor-pointer hover:text-gray-300 transition-all ">
+                <div className="sm:flex items-center hidden gap-x-2 justify-center text-lg  text-gray-300 transition-all ">
                   {version.price === "Free" ? (
                     <>
-                      <span className="hidden md:inline-block">
-                        Download for Free
-                      </span>
-                      <FaDownload className="inline-block md:w-auto w-4 h-4 md:h-auto" />
+                      <a
+                        className=" cursor-pointer hover:text-gray-100"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        href={version.link}>
+                        <span className="hidden md:inline-block mx-2">
+                          Download for Free
+                        </span>
+                        <FaDownload className="inline-block md:w-auto w-4 h-4 md:h-auto" />
+                      </a>
                     </>
                   ) : (
-                    <span className="hidden md:inline-block">
+                    <span className="hidden md:inline-block font-bold  ">
                       {version.price}
                     </span>
                   )}
@@ -113,14 +82,16 @@ function DownloadPage() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
-          className="bg-gradient-to-bl pb-10 from-purple-400 to-cyan-300 bg-clip-text text-transparent text-5xl  font-bold tracking-tight text-center md:text-7xl mt-20">
+          className="bg-gradient-to-bl pb-10 from-purple-400 to-cyan-300 bg-clip-text text-transparent text-5xl  font-bold tracking-tight text-center md:text-7xl mt-20"
+        >
           Download ChlorideOS
         </m.h1>
         <m.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
-          className=" gap-10 items-center justify-center content-center">
+          className=" gap-10 items-center justify-center content-center"
+        >
           <div className="grid grid-cols-3  border border-gray-200 dark:border-gray-700 rounded-xl">
             <div
               onClick={() => setOs("windows10")}

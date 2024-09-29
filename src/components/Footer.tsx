@@ -58,7 +58,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        href="https://www.discord.com/invite/mNPwpRt97Q"
+                        href="https://discord.com/invite/64Dgbu6ZPg"
                         target="_blank"
                         rel="noreferrer noopener"
                         className="hover:underline mb-2 block"
@@ -152,7 +152,7 @@ export default function Footer() {
 
               {/* discord */}
               <a
-                href="https://discord.com/invite/mNPwpRt97Q"
+                href="https://discord.com/invite/64Dgbu6ZPg"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
