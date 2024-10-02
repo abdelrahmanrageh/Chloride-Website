@@ -45,7 +45,7 @@ function DownloadPage() {
                 <div className="col-span-3 sm:overflow-y-hidden mx-auto max-h-24 overflow-y-auto text-left md:text-center text-gray-400">
                   {version.whatsNew}
                 </div>
-                <div className="sm:flex items-center hidden gap-x-2 justify-center text-lg  text-gray-300 transition-all ">
+                <div className="sm:flex items-center hidden gap-x-2 justify-center font-bold text-gray-300 transition-all ">
                   {version.price === "Free" ? (
                     <>
                       <a
@@ -53,14 +53,14 @@ function DownloadPage() {
                         target="_blank"
                         rel="noreferrer noopener"
                         href={version.link}>
-                        <span className="hidden md:inline-block mx-2">
+                        <span className="hidden md:inline-block text-md mx-2">
                           Download for Free
                         </span>
                         <FaDownload className="inline-block md:w-auto w-4 h-4 md:h-auto" />
                       </a>
                     </>
                   ) : (
-                    <span className="hidden md:inline-block font-bold  ">
+                    <span className="hidden md:inline-block   ">
                       {version.price}
                     </span>
                   )}
