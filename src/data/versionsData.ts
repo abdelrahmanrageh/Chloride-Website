@@ -1,4 +1,4 @@
-export const versionsNames = ["windows10", "windows11", "tweaks"];
+export const versionsNames = ["windows10", "windows11", "tweaks", "ChlorideArchive"];
 
 export const versions = {
   windows10Versions: [
@@ -93,5 +93,16 @@ export const versions = {
       price: "5$",
       link: "https://chlorideos.netlify.app/",
     },
+  ],
+
+  ChlorideArchiveVersions: [
+    {
+      version: "ChlorideWallpapers",
+      suitableFor: "",
+      whatsNew: `Get a package of nice ChlorideOS and Microsoft windows 11 style wallpapers! .`,
+      price: "Free",
+      link: "https://www.mediafire.com/folder/iuxuq1i0c4uhg/ChlorideWallpapers",
+    },
+    
   ],
 };
