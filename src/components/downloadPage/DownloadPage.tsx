@@ -22,7 +22,7 @@ function DownloadPage() {
       <>
         <div id="detailed-pricing" className="w-full overflow-x-auto ">
           <div className="overflow-hidden  mt-6  border border-gray-200 dark:border-gray-700 rounded">
-            <div className="grid md:grid-cols-5 grid-cols-4 p-4  text-sm font-medium text-gray-900 rounded-t-lg bg-gray-100 border border-gray-200 gap-x-16 dark:bg-gray-800 dark:border-gray-700 dark:text-white">
+            <div className="grid md:grid-cols-5 grid-cols-4 p-4  text-sm font-medium text-gray-900 rounded bg-gray-100 border border-gray-200 gap-x-16 dark:bg-gray-800 dark:border-gray-700 dark:text-white">
               <div className="text-center">Version </div>
               <div className="col-span-3 max-w-[75%] mx-auto">What's New </div>
             </div>
