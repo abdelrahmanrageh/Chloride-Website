@@ -10,7 +10,9 @@ function DownloadPage() {
   const [os, setOs] = useState("windows10");
 
   const Windows10Table = () => {
-    const [versionsData, setVersionsData] = useState(versions.windows10Versions);
+    const [versionsData, setVersionsData] = useState(
+      versions.windows10Versions
+    );
 
     useEffect(() => {
       setVersionsData(versions[`${os}Versions` as keyof typeof versions]);
@@ -19,7 +21,7 @@ function DownloadPage() {
     return (
       <>
         <div id="detailed-pricing" className="w-full overflow-x-auto ">
-          <div className="overflow-hidden  mt-6  border border-gray-200 dark:border-gray-700 rounded-xl">
+          <div className="overflow-hidden  mt-6  border border-gray-200 dark:border-gray-700 rounded">
             <div className="grid md:grid-cols-5 grid-cols-4 p-4  text-sm font-medium text-gray-900 rounded-t-lg bg-gray-100 border border-gray-200 gap-x-16 dark:bg-gray-800 dark:border-gray-700 dark:text-white">
               <div className="text-center">Version </div>
               <div className="col-span-3 max-w-[75%] mx-auto">What's New </div>
@@ -85,21 +87,21 @@ function DownloadPage() {
           transition={{ duration: 1, delay: 0.5 }}
           className=" gap-10 items-center justify-center content-center"
         >
-          <div className="grid grid-cols-3  border border-gray-200 dark:border-gray-700 rounded-xl">
-            {
-              versionsNames.map((versionName) => (
-
-            <div
-              onClick={() => setOs(versionName)}
-              className={`border-r text-sm md:text-lg border-gray-200 rounded-lg transition-all duration-300 cursor-pointer dark:border-gray-700 py-4 ${
-                os === `${versionName}` && "bg-gray-700"
-              }`}
-            >
-              {versionName}
-            </div>
-              ))
-            }
-
+          <div className="grid grid-cols-3  border border-gray-200 dark:border-gray-700 rounded">
+            {versionsNames.map((versionName, index) => (
+              <div
+                key={index}
+                onClick={() => setOs(versionName)}
+                className={` text-sm md:text-lg   transition-all duration-300 cursor-pointer  py-4 ${
+                  os === `${versionName}` && "bg-gray-700"
+                }
+              
+                `
+                }
+              >
+                {versionName}
+              </div>
+            ))}
           </div>
           <Windows10Table />
         </m.div>
