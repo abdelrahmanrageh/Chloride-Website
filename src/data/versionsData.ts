@@ -114,6 +114,13 @@ export const versions = {
       price: "Free",
       link: "https://www.mediafire.com/folder/iuxuq1i0c4uhg/ChlorideWallpapers",
     },
+     {
+      version: "Chloride Post Install",
+      suitableFor: "",
+      whatsNew: `A good package contains scripts and tools that can be helpful for you.`,
+      price: "Free",
+      link: "https://www.mediafire.com/file/njzhwk5azy1bmsu/Chloride_Post_install.rar/file",
+    },
     
   ],
 };
