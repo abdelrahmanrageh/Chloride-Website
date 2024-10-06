@@ -1,4 +1,4 @@
-export const versionsNames = ["windows10", "windows11", "tweaks", "ChlorideArchive"];
+export const versionsNames = ["windows10", "windows11", "tweaks", "OtherCustomReleases", "ChlorideArchive"];
 
 export const versions = {
   windows10Versions: [
@@ -94,7 +94,18 @@ export const versions = {
       link: "https://chlorideos.netlify.app/",
     },
   ],
-
+  
+ OtherCustomReleasesVersions: [
+    {
+      version: "AtlasOS11 23h2 iso",
+      suitableFor: "",
+      whatsNew: `AtlasOS 11 23H2 (ISO download) is here!, this new release has been rebuilt using the VMware for project,
+      AME Wizard Beta and AtlasOS playbook for creating AtlasOS! .`,
+      price: "Free",
+      link: "https://archive.org/details/atlasos1123h2/Screenshot%20(2).png",
+    },
+    
+  ],
   ChlorideArchiveVersions: [
     {
       version: "ChlorideWallpapers",
