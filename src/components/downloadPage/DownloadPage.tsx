@@ -1,9 +1,5 @@
 import { useEffect, useState } from "react";
-import {
-  windows10Versions,
-  windows11Versions,
-  chlorideTweaks,
-} from "../../data/versionsData";
+import { versions, versionsNames } from "../../data/versionsData";
 import { FaDownload } from "react-icons/fa";
 import { motion as m } from "framer-motion";
 
@@ -14,14 +10,10 @@ function DownloadPage() {
   const [os, setOs] = useState("windows10");
 
   const Windows10Table = () => {
-    const [versions, setVersions] = useState(windows10Versions);
+    const [versionsData, setVersionsData] = useState(versions.windows10Versions);
 
     useEffect(() => {
-      if (os === "windows11") {
-        setVersions(windows11Versions);
-      } else if (os === "tweaks") {
-        setVersions(chlorideTweaks);
-      }
+      setVersionsData(versions[`${os}Versions` as keyof typeof versions]);
     }, [os]);
 
     return (
@@ -32,7 +24,7 @@ function DownloadPage() {
               <div className="text-center">Version </div>
               <div className="col-span-3 max-w-[75%] mx-auto">What's New </div>
             </div>
-            {versions.map((version) => (
+            {versionsData.map((version) => (
               <div className="grid max-h-32 md:grid-cols-5 grid-cols-4 px-4 overflow-x-auto overflow-y-hidden py-5 text-sm text-gray-500 border-b border-gray-200 md:gap-x-16 gap-x-2 dark:border-gray-700">
                 <div className="text-gray-500 dark:text-gray-400 flex flex-col items-center justify-center">
                   <div className="md:text-lg font-semibold dark:text-gray-300">
@@ -52,7 +44,8 @@ function DownloadPage() {
                         className=" cursor-pointer hover:text-gray-100"
                         target="_blank"
                         rel="noreferrer noopener"
-                        href={version.link}>
+                        href={version.link}
+                      >
                         <span className="hidden md:inline-block text-md mx-2">
                           Download for Free
                         </span>
@@ -93,30 +86,20 @@ function DownloadPage() {
           className=" gap-10 items-center justify-center content-center"
         >
           <div className="grid grid-cols-3  border border-gray-200 dark:border-gray-700 rounded-xl">
+            {
+              versionsNames.map((versionName) => (
+
             <div
-              onClick={() => setOs("windows10")}
-              className={`border-r text-sm md:text-lg border-gray-200 rounded-l-xl transition-all duration-300 cursor-pointer dark:border-gray-700 py-4 ${
-                os === "windows10" && "bg-gray-700"
+              onClick={() => setOs(versionName)}
+              className={`border-r text-sm md:text-lg border-gray-200 rounded-lg transition-all duration-300 cursor-pointer dark:border-gray-700 py-4 ${
+                os === `${versionName}` && "bg-gray-700"
               }`}
             >
-              Windows 10
+              {versionName}
             </div>
-            <div
-              onClick={() => setOs("windows11")}
-              className={`border-rtext-sm md:text-lg border-gray-200 dark:border-gray-700  transition-all duration-300 cursor-pointer py-4 ${
-                os === "windows11" && "bg-gray-700"
-              }`}
-            >
-              Windows 11
-            </div>
-            <div
-              onClick={() => setOs("tweaks")}
-              className={`border-ltext-sm md:text-lg border-gray-200 dark:border-gray-700 rounded-r-xl transition-all duration-300 cursor-pointer py-4 ${
-                os === "tweaks" && "bg-gray-700"
-              }`}
-            >
-              Tweaks
-            </div>
+              ))
+            }
+
           </div>
           <Windows10Table />
         </m.div>
