@@ -104,6 +104,14 @@ export const versions = {
       price: "Free",
       link: "https://archive.org/details/atlasos1123h2/Screenshot%20(2).png",
     },
+    {
+      version: "AtlasOS10 20h2 iso",
+      suitableFor: "",
+      whatsNew: `AtlasOS 10 20H2 (ISO download) is here!, this new release has been rebuilt using the VMware for project,
+      AME Wizard Beta and AtlasOS playbook for creating AtlasOS! .`,
+      price: "Free",
+      link: "https://archive.org/details/atlas-v0.4.2/1_desktop.png",
+    },
     
   ],
   ChlorideArchiveVersions: [
