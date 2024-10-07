@@ -116,6 +116,13 @@ export const versions = {
   ],
   ChlorideArchiveVersions: [
     {
+      version: "Chloride processes lower",
+      suitableFor: "",
+      whatsNew: `Get more than 60 cpu process with onlu 1 click! .`,
+      price: "Free",
+      link: "https://www.mediafire.com/file/ytvl1wkmgdnqnxb/Chloride_processes_lower.rar/file",
+    },
+    {
       version: "ChlorideWallpapers",
       suitableFor: "",
       whatsNew: `Get a package of nice ChlorideOS and Microsoft windows 11 style wallpapers! .`,
