@@ -20,12 +20,12 @@ export const versions = {
     },
 
     {
-      version: "ChlorideOS 1809",
+      version: "ChlorideOS 1809 Debloated",
       suitableFor: "Best For Low End Devices",
       whatsNew:
         "80% Of bloatwares removed , lower cpu process ( 45 - 60 ) , lower ram usage ( 1.0 - 1.3 GB ), Only 7-8 GB of disk usage, Chloride Tweaks, 2.6GB iso ",
-      price: "Free",
-      link: "https://www.mediafire.com/file/wfwsb5xfe6v1nmw/ChlorideOS_10_1809_SUPER_LIGHT.rar/file",
+      price: "With Tweaks Ultimate Plan",
+      link: "https://chlorideos.netlify.app/",
     },
 
     {
