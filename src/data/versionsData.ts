@@ -6,7 +6,7 @@ export const versions = {
       version: "ChlorideOS 21H2 Enterprise LTSC Extreme",
       suitableFor: "Best Option for you",
       whatsNew:
-        "0 bloatwares ,lower cpu processes ( 50 - 60 ) , lower ram usage ( 0.7 - 0.9 GB ), 3.4GB iso",
+        "0 bloatwares ,lower cpu processes after tweaking ( 50 - 60 ) , lower ram usage ( 0.7 - 0.9 GB ), 3.4GB iso",
       price: "Free",
       link: "https://mega.nz/folder/5800zSpJ#wP1fJCt9yC_xpdWZfo0UAw",
     },
@@ -14,7 +14,7 @@ export const versions = {
       version: "ChlorideOS Beta 1.0.0 22h2",
       suitableFor: "Simple Daily Use",
       whatsNew:
-        "0 bloatwares ,lower cpu processes ( 35 - 50 ) , lower ram usage ( 1.3 GB ), No Bluetooth , No Printing , 3.9GB iso",
+        "0 bloatwares ,lower cpu processes after tweaking ( 35 - 50 ) , lower ram usage ( 1.3 GB ), No Bluetooth , No Printing , 3.9GB iso",
       price: "Free",
       link: "https://www.mediafire.com/folder/de2p58pxbw1fr/Free+ChlorideO+10+1.0.0+22h2",
     },
@@ -23,7 +23,7 @@ export const versions = {
       version: "ChlorideOS 1809 Debloated",
       suitableFor: "Best For Low End Devices",
       whatsNew:
-        "80% Of bloatwares removed , lower cpu process ( 45 - 60 ) , lower ram usage ( 1.0 - 1.3 GB ), Only 7-8 GB of disk usage, Chloride Tweaks, 2.6GB iso ",
+        "80% Of bloatwares removed , lower cpu process after tweaking ( 45 - 60 ) , lower ram usage ( 1.0 - 1.3 GB ), Only 7-8 GB of disk usage, Chloride Tweaks, 2.6GB iso ",
       price: "With Tweaks Ultimate Plan",
       link: "https://chlorideos.netlify.app/",
     },
@@ -32,7 +32,7 @@ export const versions = {
       version: "ChlorideOS 1909 x64 Extreme",
       suitableFor: "Lightest Windows10 Ever",
       whatsNew:
-        "0 bloatwares, lower cpu process ( 40-55 ) , lower ram usage ( 0.5 - 0.7 GB ), Only 4-5 GB of disk usage, Chloride Post Install Folder, 1.2GB iso",
+        "0 bloatwares, lower cpu process after tweaking ( 40-55 ) , lower ram usage ( 0.5 - 0.7 GB ), Only 4-5 GB of disk usage, Chloride Post Install Folder, 1.2GB iso",
       price: "With Tweaks Ultimate Plan",
       link: "https://chlorideos.netlify.app/",
     },
