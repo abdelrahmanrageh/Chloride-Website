@@ -43,7 +43,7 @@ export const versions = {
       version: "ChlorideOS 22h2 Debloated",
       suitableFor: "Simple Daily Use",
       whatsNew:
-        "80% Of bloatwares removed ,lower cpu processes ( 80 - 100 ) , lower ram usage ( 1.3 GB ), 2.6GB iso",
+        "80% Of bloatwares removed ,lower cpu processes ( 80 - 100 ) , lower ram usage ( 1.4 GB ), 2.9GB iso",
       price: "Free",
       link: "https://mega.nz/folder/opVQkLoB#I2Ths0zhZ9wdPBcihrvElA",
     },
@@ -56,18 +56,10 @@ export const versions = {
       link: "https://mega.nz/file/wgUF1KIQ#9vbMZgxmmaO2DIVZWJIA98QxrEsJEQV5MG6A70Knn8Y",
     },
     {
-      version: "1.0.0 LTSC",
-      suitableFor: "Best For Gaming",
-      whatsNew:
-        "0 bloatwares , lower cpu process ( 55 - 65 ) , lower ram usage ( 1.0 - 1.3 GB ), Only 7-8 GB of disk usage, Chloride Tweaks , Chloride Post Install Folder, 3.6GB iso",
-      price: "With Tweaks Ultimate Plan",
-      link: "https://chlorideos.netlify.app/",
-    },
-    {
-      version: "1.0.0 22H2 Extreme ",
+      version: "ChlorideOS 22H2 Extreme ",
       suitableFor: "Lightest Version Ever, Best For Low End Devices",
       whatsNew:
-        "80% OF bloatwares removed , lower cpu process ( 70 ) , lower ram usage ( 1.0 - 1.3 GB ), Only 13-16 GB of disk usage, Chloride Tweaks , Chloride Post Install Folder, 3.9GB iso",
+        "100% Of bloatwares removed , lower cpu process ( 70-80 ) , lower ram usage ( 1.0 - 1.3 GB ), Only 9-10 GB of disk usage, Chloride Tweaks , Chloride Post Install Folder, 2.8GB iso",
       price: "With Tweaks Ultimate Plan",
       link: "https://chlorideos.netlify.app/",
     },
