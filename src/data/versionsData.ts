@@ -11,7 +11,7 @@ export const versions = {
       link: "https://mega.nz/folder/5800zSpJ#wP1fJCt9yC_xpdWZfo0UAw",
     },
     {
-      version: "ChlorideOS Beta 1.0.0 22h2",
+      version: "ChlorideOS 22h2 Debloated Beta",
       suitableFor: "Simple Daily Use",
       whatsNew:
         "0 bloatwares ,lower cpu processes after tweaking ( 35 - 50 ) , lower ram usage ( 1.3 GB ), No Bluetooth , No Printing , 3.9GB iso",
