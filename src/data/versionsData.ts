@@ -3,7 +3,7 @@ export const versionsNames = ["windows10", "windows11", "tweaks", "OtherCustomRe
 export const versions = {
   windows10Versions: [
     {
-      version: "ChlorideOS 21H2 Enterprise LTSC Extreme",
+      version: "ChlorideOS 21H2 Enterprise LTSC Extreme ",
       suitableFor: "Best Option for you",
       whatsNew:
         "0 bloatwares ,lower cpu processes after tweaking ( 50 - 60 ) , lower ram usage ( 0.7 - 0.9 GB ), 3.4GB iso",
@@ -24,15 +24,23 @@ export const versions = {
       suitableFor: "Best For Low End Devices",
       whatsNew:
         "80% Of bloatwares removed , lower cpu process after tweaking ( 45 - 60 ) , lower ram usage ( 1.0 - 1.3 GB ), Only 7-8 GB of disk usage, Chloride Tweaks, 2.6GB iso ",
-      price: "With Tweaks Ultimate Plan",
-      link: "https://chlorideos.netlify.app/",
+      price: "Free",
+      link: "https://www.mediafire.com/folder/m9tn5maskec0g/ChlorideOS+10+1809+SUPER+LIGHT",
     },
 
     {
-      version: "ChlorideOS 1909 x64 Extreme",
+      version: "ChlorideOS 1909 Ultimate",
       suitableFor: "Lightest Windows10 Ever",
       whatsNew:
         "0 bloatwares, lower cpu process after tweaking ( 40-55 ) , lower ram usage ( 0.5 - 0.7 GB ), Only 4-5 GB of disk usage, Chloride Post Install Folder, 1.2GB iso",
+      price: "With Tweaks Ultimate Plan",
+      link: "https://chlorideos.netlify.app/",
+    },
+    {
+      version: "ChlorideOS 21h2 LTSC Ultimate",
+      suitableFor: "Best & most stable Windows10 you can find",
+      whatsNew:
+        "0 bloatwares, lower cpu process after tweaking ( 40-50 ) , lower ram usage ( 0.5 - 0.8 GB ), Only 7-8 GB of disk usage, 3.4GB iso",
       price: "With Tweaks Ultimate Plan",
       link: "https://chlorideos.netlify.app/",
     },
