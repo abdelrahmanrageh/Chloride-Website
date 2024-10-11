@@ -58,7 +58,7 @@ export default function Footer() {
                     </li>
                     <li>
                       <a
-                        href="https://discord.com/invite/64Dgbu6ZPg"
+                        href="https://dsc.gg/chlorideos"
                         target="_blank"
                         rel="noreferrer noopener"
                         className="hover:underline mb-2 block"
