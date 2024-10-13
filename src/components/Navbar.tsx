@@ -22,7 +22,7 @@ export default function Navbar() {
         <div className="flex items-center">
           {/* <button>Premium</button> */}
           <a
-            href="https://discord.com/invite/64Dgbu6ZPg"
+            href="https://discord.gg/9ZCgxhaYV6"
             target="_blank"
             title="Join our Discord"
             rel="noreferrer noopener"

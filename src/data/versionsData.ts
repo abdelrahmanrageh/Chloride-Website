@@ -1,8 +1,14 @@
-export const versionsNames = ["AtomOS", "ChlorideOS10", "ChlorideOS11", "tweaks", "OtherCustomReleases", "ChlorideArchive"];
+export const versionsNames = [
+  "AtomOS",
+  "ChlorideOS10",
+  "ChlorideOS11",
+  "tweaks",
+  "OtherCustomReleases",
+  "ChlorideArchive",
+];
 
 export const versions = {
-
-    AtomOSVersions: [
+  AtomOSVersions: [
     {
       version: "AtomOS 11 23h2 Standard ",
       suitableFor: "Lighest windows 11 release",
@@ -12,13 +18,6 @@ export const versions = {
       link: "https://mega.nz/file/Z4k2VQ5S#-B7wY1-kG4M6EDErUqzZBtzZma53e0D4RXbf5s7DM1E",
     },
   ],
-
-
-
-
-
-
-  
   ChlorideOS10Versions: [
     {
       version: "ChlorideOS 21H2 Enterprise LTSC Extreme ",
@@ -112,8 +111,8 @@ export const versions = {
       link: "https://chlorideos.netlify.app/",
     },
   ],
-  
- OtherCustomReleasesVersions: [
+
+  OtherCustomReleasesVersions: [
     {
       version: "AtlasOS11 23h2 iso",
       suitableFor: "",
@@ -130,7 +129,6 @@ export const versions = {
       price: "Free",
       link: "https://archive.org/details/atlas-v0.4.2/1_desktop.png",
     },
-    
   ],
   ChlorideArchiveVersions: [
     {
@@ -141,19 +139,18 @@ export const versions = {
       link: "https://www.mediafire.com/file/ytvl1wkmgdnqnxb/Chloride_processes_lower.rar/file",
     },
     {
-      version: "ChlorideWallpapers",
+      version: "Chloride Wallpapers",
       suitableFor: "",
       whatsNew: `Get a package of nice ChlorideOS and Microsoft windows 11 style wallpapers! .`,
       price: "Free",
       link: "https://www.mediafire.com/folder/iuxuq1i0c4uhg/ChlorideWallpapers",
     },
-     {
+    {
       version: "Chloride Post Install",
       suitableFor: "",
       whatsNew: `A good package contains scripts and tools that can be helpful for you.`,
       price: "Free",
       link: "https://www.mediafire.com/file/njzhwk5azy1bmsu/Chloride_Post_install.rar/file",
     },
-    
   ],
 };

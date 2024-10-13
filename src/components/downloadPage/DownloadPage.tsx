@@ -7,15 +7,17 @@ function DownloadPage() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const [os, setOs] = useState("windows10");
+  const [os, setOs] = useState(versionsNames[0]);
 
   const Windows10Table = () => {
     const [versionsData, setVersionsData] = useState(
-      versions.windows10Versions
+      versions.AtomOSVersions
     );
 
     useEffect(() => {
       setVersionsData(versions[`${os}Versions` as keyof typeof versions]);
+      console.log(`${os}Versions`);
+      console.log(versionsData);
     }, [os]);
 
     return (
@@ -27,12 +29,15 @@ function DownloadPage() {
               <div className="col-span-3 max-w-[75%] mx-auto">What's New </div>
             </div>
             {versionsData.map((version) => (
-              <div className="grid max-h-32 md:grid-cols-5 grid-cols-4 px-4 overflow-x-auto overflow-y-hidden py-5 text-sm text-gray-500 border-b border-gray-200 md:gap-x-16 gap-x-2 dark:border-gray-700">
+              <div
+                key={version.version}
+                className="grid  md:grid-cols-5 grid-cols-4 px-4 overflow-x-auto overflow-y-hidden py-5 text-sm text-gray-500 border-b border-gray-200 md:gap-x-16 gap-x-2 dark:border-gray-700"
+              >
                 <div className="text-gray-500 dark:text-gray-400 flex flex-col items-center justify-center">
-                  <div className="md:text-lg font-semibold dark:text-gray-300">
+                  <div className="md:text-sm overflow-hidden text-xs  font-semibold dark:text-gray-300">
                     {version.version}
                   </div>
-                  <div className="text-xs text-gray-400 dark:text-gray-500">
+                  <div className="text-[10px] md:text-xs leading-3 md:leading-5 text text-gray-400 dark:text-gray-500">
                     {version.suitableFor}
                   </div>
                 </div>
@@ -92,12 +97,11 @@ function DownloadPage() {
               <div
                 key={index}
                 onClick={() => setOs(versionName)}
-                className={` text-sm md:text-lg   transition-all duration-300 cursor-pointer  py-4 ${
+                className={`truncate text-xs md:text-lg   transition-all duration-300 cursor-pointer  py-4 ${
                   os === `${versionName}` && "bg-gray-700"
                 }
               
-                `
-                }
+                `}
               >
                 {versionName}
               </div>
