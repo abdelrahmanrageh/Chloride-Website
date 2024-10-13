@@ -1,7 +1,25 @@
-export const versionsNames = ["windows10", "windows11", "tweaks", "OtherCustomReleases", "ChlorideArchive"];
+export const versionsNames = ["AtomOS", "ChlorideOS10", "ChlorideOS11", "tweaks", "OtherCustomReleases", "ChlorideArchive"];
 
 export const versions = {
-  windows10Versions: [
+
+    AtomOSVersions: [
+    {
+      version: "AtomOS 11 23h2 Standard ",
+      suitableFor: "Lighest windows 11 release",
+      whatsNew:
+        "0 bloatwares ,lower cpu processes after tweaking ( 50 - 60 ) , lower ram usage ( 0.9 - 1.2 GB ), 1.8GB iso",
+      price: "Free",
+      link: "https://mega.nz/file/Z4k2VQ5S#-B7wY1-kG4M6EDErUqzZBtzZma53e0D4RXbf5s7DM1E",
+    },
+  ],
+
+
+
+
+
+
+  
+  ChlorideOS10Versions: [
     {
       version: "ChlorideOS 21H2 Enterprise LTSC Extreme ",
       suitableFor: "Best Option for you",
@@ -46,7 +64,7 @@ export const versions = {
     },
   ],
 
-  windows11Versions: [
+  ChlorideOS11Versions: [
     {
       version: "ChlorideOS 22h2 Debloated",
       suitableFor: "Simple Daily Use",
