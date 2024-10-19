@@ -15,25 +15,33 @@ export const versions = {
       whatsNew:
         "0 bloatwares ,lower cpu processes after tweaking ( 50 - 60 ) , lower ram usage ( 0.9 - 1.2 GB ), 1.8GB iso",
       price: "Free",
-      link: "https://mega.nz/file/Z4k2VQ5S#-B7wY1-kG4M6EDErUqzZBtzZma53e0D4RXbf5s7DM1E",
+      link: "https://2yrw6h-my.sharepoint.com/:u:/g/personal/chloride_2yrw6h_onmicrosoft_com/EVdTdwlh92pEjpZyfq8npBIBXRZaLRjW53GmHVUBx_lRAg?e=l7zzH6",
     },
   ],
   ChlorideOS10Versions: [
     {
+      version: "ChlorideOS 21H2 Compact LTSC ",
+      suitableFor: "Best Option for you, ready to use",
+      whatsNew:
+        "0 bloatwares ,lower cpu processes after using chloride tweaks ( 45 - 60 ) , lower ram usage ( 0.8 - 1.2 GB ), 3.6GB iso",
+      price: "Free",
+      link: "https://mega.nz/file/l8k0waDZ#GdQb0Si_tP5AJMTPXqDLk3CXVdRM3kYg-mQBe6oCiqc",
+    },
+      {
       version: "ChlorideOS 21H2 Enterprise LTSC Extreme ",
-      suitableFor: "Best Option for you",
+      suitableFor: "Good for mid end devices",
       whatsNew:
         "0 bloatwares ,lower cpu processes after tweaking ( 50 - 60 ) , lower ram usage ( 0.7 - 0.9 GB ), 3.4GB iso",
       price: "Free",
       link: "https://mega.nz/folder/5800zSpJ#wP1fJCt9yC_xpdWZfo0UAw",
     },
     {
-      version: "ChlorideOS 22h2 Debloated Beta",
+      version: "ChlorideOS 22h2 Debloated ",
       suitableFor: "Simple Daily Use",
       whatsNew:
         "0 bloatwares ,lower cpu processes after tweaking ( 35 - 50 ) , lower ram usage ( 1.3 GB ), No Bluetooth , No Printing , 3.9GB iso",
       price: "Free",
-      link: "https://www.mediafire.com/folder/de2p58pxbw1fr/Free+ChlorideO+10+1.0.0+22h2",
+      link: "https://2yrw6h-my.sharepoint.com/:u:/g/personal/chloride_2yrw6h_onmicrosoft_com/ERu5umVM4lpNkw2fGW2lIeMBHwKCGjhNNh2kAs5f1klHmQ?e=aYdyQa",
     },
 
     {
@@ -42,7 +50,7 @@ export const versions = {
       whatsNew:
         "80% Of bloatwares removed , lower cpu process after tweaking ( 45 - 60 ) , lower ram usage ( 1.0 - 1.3 GB ), Only 7-8 GB of disk usage, Chloride Tweaks, 2.6GB iso ",
       price: "Free",
-      link: "https://www.mediafire.com/folder/m9tn5maskec0g/ChlorideOS+10+1809+SUPER+LIGHT",
+      link: "https://2yrw6h-my.sharepoint.com/personal/chloride_2yrw6h_onmicrosoft_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fchloride%5F2yrw6h%5Fonmicrosoft%5Fcom%2FDocuments%2FChlorideOS%2010%201809%20SUPER%20LIGHT%2Eiso&parent=%2Fpersonal%2Fchloride%5F2yrw6h%5Fonmicrosoft%5Fcom%2FDocuments&ga=1",
     },
 
     {
@@ -78,7 +86,7 @@ export const versions = {
       whatsNew:
         "70% Of bloatwares removed ,low after tweaking cpu processes ( 60 - 70 ) , lowe ram usage ( 1.7 GB ), 4.6GB iso",
       price: "Free",
-      link: "https://mega.nz/file/wgUF1KIQ#9vbMZgxmmaO2DIVZWJIA98QxrEsJEQV5MG6A70Knn8Y",
+      link: "https://2yrw6h-my.sharepoint.com/:u:/g/personal/chloride_2yrw6h_onmicrosoft_com/EecmQ2vZDlNGuNyIYmLtdnEBd4a5NdAFTKqX7LTK-oGm0A?e=BUsXc3",
     },
     {
       version: "ChlorideOS 22H2 Extreme ",
