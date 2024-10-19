@@ -33,7 +33,7 @@ export const versions = {
       whatsNew:
         "0 bloatwares ,lower cpu processes after tweaking ( 50 - 60 ) , lower ram usage ( 0.7 - 0.9 GB ), 3.4GB iso",
       price: "Free",
-      link: "https://mega.nz/folder/5800zSpJ#wP1fJCt9yC_xpdWZfo0UAw",
+      link: "https://2yrw6h-my.sharepoint.com/personal/chloride_2yrw6h_onmicrosoft_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fchloride%5F2yrw6h%5Fonmicrosoft%5Fcom%2FDocuments%2FChlorideOS%2010%20Enterprise%20LTSC%20Extreme%2Eiso&parent=%2Fpersonal%2Fchloride%5F2yrw6h%5Fonmicrosoft%5Fcom%2FDocuments&ga=1",
     },
     {
       version: "ChlorideOS 22h2 Debloated ",
