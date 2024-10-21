@@ -90,10 +90,10 @@ export const versions = {
     },
         {
       version: "ChlorideOS 23H2 Ultimate v2 ",
-      suitableFor: "Lightest Version Ever, Best For Low End Devices",
+      suitableFor: "Best custom windows release you can find",
       whatsNew:
         "0 bloatwares removed , lower cpu process ( 70-80 ) , lower ram usage ( 1.0 - 1.5 GB ), Only 9-10 GB of disk usage, Chloride Tweaks , Chloride Post setup folder, windows defender, snipping tool, windows defender remover, 3.68GB iso",
-      price: "Best custom windows release you can find",
+      price: "With Tweaks Ultimate Plan",
       link: "https://chlorideos.netlify.app/",
     },
     {
