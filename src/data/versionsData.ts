@@ -88,6 +88,14 @@ export const versions = {
       price: "Free",
       link: "https://2yrw6h-my.sharepoint.com/:u:/g/personal/chloride_2yrw6h_onmicrosoft_com/EecmQ2vZDlNGuNyIYmLtdnEBd4a5NdAFTKqX7LTK-oGm0A?e=BUsXc3",
     },
+        {
+      version: "ChlorideOS 23H2 Ultimate v2 ",
+      suitableFor: "Lightest Version Ever, Best For Low End Devices",
+      whatsNew:
+        "0 bloatwares removed , lower cpu process ( 70-80 ) , lower ram usage ( 1.0 - 1.5 GB ), Only 9-10 GB of disk usage, Chloride Tweaks , Chloride Post setup folder, windows defender, snipping tool, windows defender remover, 3.68GB iso",
+      price: "Best custom windows release you can find",
+      link: "https://chlorideos.netlify.app/",
+    },
     {
       version: "ChlorideOS 22H2 Ultimate ",
       suitableFor: "Lightest Version Ever, Best For Low End Devices",
