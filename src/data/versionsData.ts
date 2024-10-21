@@ -89,7 +89,7 @@ export const versions = {
       link: "https://2yrw6h-my.sharepoint.com/:u:/g/personal/chloride_2yrw6h_onmicrosoft_com/EecmQ2vZDlNGuNyIYmLtdnEBd4a5NdAFTKqX7LTK-oGm0A?e=BUsXc3",
     },
     {
-      version: "ChlorideOS 22H2 Extreme ",
+      version: "ChlorideOS 22H2 Ultimate ",
       suitableFor: "Lightest Version Ever, Best For Low End Devices",
       whatsNew:
         "100% Of bloatwares removed , lower cpu process ( 70-80 ) , lower ram usage ( 1.0 - 1.3 GB ), Only 9-10 GB of disk usage, Chloride Tweaks , Chloride Post Install Folder, 2.8GB iso",
