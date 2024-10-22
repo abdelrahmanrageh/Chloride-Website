@@ -157,7 +157,7 @@ export const versions = {
     {
       version: "Chloride processes lower",
       suitableFor: "",
-      whatsNew: `Get more than 60 cpu process with onlu 1 click! .`,
+      whatsNew: `Get more than 60 cpu process with onlu 1 click! Pass: 123 .`,
       price: "Free",
       link: "https://www.mediafire.com/file/op75cau4qwk9pdj/ChlorideProcessesLower.rar/file",
     },
@@ -171,7 +171,7 @@ export const versions = {
     {
       version: "Chloride Post Install",
       suitableFor: "",
-      whatsNew: `A good package contains scripts and tools that can be helpful for you.`,
+      whatsNew: `A good package contains scripts and tools that can be helpful for you. Pass: 123 `,
       price: "Free",
       link: "https://www.mediafire.com/file/njzhwk5azy1bmsu/Chloride_Post_install.rar/file",
     },
