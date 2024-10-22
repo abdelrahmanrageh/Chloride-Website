@@ -129,14 +129,8 @@ export const versions = {
   ],
 
   OtherCustomReleasesVersions: [
-        {
-      version: "AtlasOS10 21h2 iso",
-      suitableFor: "",
-      whatsNew: `AtlasOS 10 21H2 (ISO download) is here!`
-      price: "Free",
-      link: "https://drive.usercontent.google.com/download?id=1ecrgwe_YMMYtIXeBCdhw8hSeny-kSUVO&export=download&authuser=0",
-    },
-{
+    
+     {
       version: "AtlasOS11 23h2 iso",
       suitableFor: "",
       whatsNew: `AtlasOS 11 23H2 (ISO download) is here!, this new release has been rebuilt using the VMware for project,
@@ -145,6 +139,13 @@ export const versions = {
       link: "https://archive.org/details/atlasos1123h2/Screenshot%20(2).png",
     },
     {
+      version: "AtlasOS10 21h2 iso",
+      suitableFor: "",
+      whatsNew: `AtlasOS 10 21H2 (ISO download) is here! .`,
+      price: "Free",
+      link: "https://drive.usercontent.google.com/download?id=1ecrgwe_YMMYtIXeBCdhw8hSeny-kSUVO&export=download&authuser=0",
+    },   
+    {
       version: "AtlasOS10 20h2 iso",
       suitableFor: "",
       whatsNew: `AtlasOS 10 20H2 (ISO download) is here!, this new release has been rebuilt using the VMware for project,
@@ -152,8 +153,7 @@ export const versions = {
       price: "Free",
       link: "https://archive.org/details/atlas-v0.4.2/1_desktop.png",
     },
-
-  ],
+    ],
   ChlorideArchiveVersions: [
     {
       version: "Chloride Optimizer",
