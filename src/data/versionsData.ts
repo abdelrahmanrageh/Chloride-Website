@@ -159,7 +159,7 @@ export const versions = {
       suitableFor: "",
       whatsNew: `Get more than 60 cpu process with onlu 1 click! .`,
       price: "Free",
-      link: "https://www.mediafire.com/file/ytvl1wkmgdnqnxb/Chloride_processes_lower.rar/file",
+      link: "https://www.mediafire.com/file/op75cau4qwk9pdj/ChlorideProcessesLower.rar/file",
     },
     {
       version: "Chloride Wallpapers",
