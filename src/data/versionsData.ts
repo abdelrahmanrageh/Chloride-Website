@@ -8,7 +8,7 @@ export const versionsNames = [
 ];
 
 export const versions = {
-  AtomOSDiscontinuedVersions: [
+  AtomOSVersions: [
     {
       version: "AtomOS 11 23h2 Standard ",
       suitableFor: "Lighest windows 11 release",
