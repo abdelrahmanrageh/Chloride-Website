@@ -148,6 +148,13 @@ export const versions = {
   ],
   ChlorideArchiveVersions: [
     {
+      version: "Chloride Optimizer",
+      suitableFor: "",
+      whatsNew: `Get lower CPU and RAM usage with 1 tool! .`,
+      price: "Free",
+      link: "https://www.mediafire.com/file/58jl0dn03ywj23a/ChlorideTweaker.rar/file",
+    },
+    {
       version: "Chloride processes lower",
       suitableFor: "",
       whatsNew: `Get more than 60 cpu process with onlu 1 click! .`,
