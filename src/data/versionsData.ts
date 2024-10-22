@@ -173,7 +173,7 @@ export const versions = {
       suitableFor: "",
       whatsNew: `A good package contains scripts and tools that can be helpful for you. Pass: 123 `,
       price: "Free",
-      link: "https://www.mediafire.com/file/njzhwk5azy1bmsu/Chloride_Post_install.rar/file",
+      link: "https://www.mediafire.com/file/q5669d1pmdkimqg/post_setup.rar/file",
     },
   ],
 };
