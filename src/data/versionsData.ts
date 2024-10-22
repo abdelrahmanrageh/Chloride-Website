@@ -1,5 +1,5 @@
 export const versionsNames = [
-  "AtomOS",
+  "AtomOSDiscontinued",
   "ChlorideOS10",
   "ChlorideOS11",
   "tweaks",
