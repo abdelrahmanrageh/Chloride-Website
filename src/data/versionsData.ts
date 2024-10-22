@@ -10,7 +10,7 @@ export const versionsNames = [
 export const versions = {
   AtomOSVersions: [
     {
-      version: "AtomOS 11 23h2 Standard ( Discontinued )",
+      version: "AtomOS 11 23h2 Standard   ( Discontinued )",
       suitableFor: "Lighest windows 11 release",
       whatsNew:
         "0 bloatwares ,lower cpu processes after tweaking ( 50 - 60 ) , lower ram usage ( 0.9 - 1.2 GB ), 1.8GB iso",
