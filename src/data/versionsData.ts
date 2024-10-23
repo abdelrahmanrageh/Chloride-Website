@@ -19,19 +19,20 @@ export const versions = {
     },
   ],
   ChlorideOS10Versions: [
+    
     {
-      version: "ChlorideOS 21H2 Compact LTSC ",
-      suitableFor: "Best Option for you, ready to use",
+      version: "ChlorideOS 21H2 Extreme v3 ",
+      suitableFor: "Best Option for you, ready to use with Microsoft store",
       whatsNew:
-        "0 bloatwares ,lower cpu processes after using chloride tweaks ( 45 - 60 ) , lower ram usage ( 0.8 - 1.2 GB ), 3.6GB iso",
+        "0 bloatwares ,lower cpu processes after using chloride tweaks ( 45 - 55 ) , lower ram usage ( 0.8 - 1.3 GB ), 1.3GB iso",
       price: "Free",
-      link: "https://mega.nz/file/l8k0waDZ#GdQb0Si_tP5AJMTPXqDLk3CXVdRM3kYg-mQBe6oCiqc",
+      link: "https://www.mediafire.com/file/z3fdo1as40g7pag/ChlorideOS+10+21h2+v3+Extreme.rar/file",
     },
-      {
+    {
       version: "ChlorideOS 21H2 Enterprise LTSC Extreme ",
       suitableFor: "Good for mid end devices",
       whatsNew:
-        "0 bloatwares ,lower cpu processes after tweaking ( 50 - 60 ) , lower ram usage ( 0.7 - 0.9 GB ), 3.4GB iso",
+        "0 bloatwares ,lower cpu processes after tweaking ( 60 - 70 ) , lower ram usage ( 0.7 - 0.9 GB ), 3.4GB iso",
       price: "Free",
       link: "https://2yrw6h-my.sharepoint.com/personal/chloride_2yrw6h_onmicrosoft_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fchloride%5F2yrw6h%5Fonmicrosoft%5Fcom%2FDocuments%2FChlorideOS%2010%20Enterprise%20LTSC%20Extreme%2Eiso&parent=%2Fpersonal%2Fchloride%5F2yrw6h%5Fonmicrosoft%5Fcom%2FDocuments&ga=1",
     },
