@@ -70,6 +70,14 @@ export const versions = {
       price: "With Tweaks Ultimate Plan",
       link: "https://chlorideos.netlify.app/",
     },
+    {
+      version: "ChlorideOS 21h2 Ltsc Ultimate V3",
+      suitableFor: "Best ChlorideOS Release Ever",
+      whatsNew:
+        "0 bloatwares, 50 CPU processes , Low RAM usage ( 0.9gb ), Only 9GB of disk usage, 3.6GB iso",
+      price: "With Tweaks Ultimate Plan",
+      link: "https://chlorideos.netlify.app/",
+    },
   ],
 
   ChlorideOS11Versions: [
