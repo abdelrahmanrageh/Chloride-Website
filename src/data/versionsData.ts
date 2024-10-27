@@ -63,14 +63,6 @@ export const versions = {
       link: "https://chlorideos.netlify.app/",
     },
     {
-      version: "ChlorideOS 21h2 LTSC Ultimate",
-      suitableFor: "Best & most stable Windows10 you can find",
-      whatsNew:
-        "0 bloatwares, lower cpu process after tweaking ( 40-50 ) , lower ram usage ( 0.5 - 0.8 GB ), Only 7-8 GB of disk usage, 3.4GB iso",
-      price: "With Tweaks Ultimate Plan",
-      link: "https://chlorideos.netlify.app/",
-    },
-    {
       version: "ChlorideOS 21h2 Ltsc Ultimate V3",
       suitableFor: "Best ChlorideOS Release Ever",
       whatsNew:
