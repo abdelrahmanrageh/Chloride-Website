@@ -154,6 +154,13 @@ export const versions = {
       price: "Free",
       link: "https://archive.org/details/atlas-v0.4.2/1_desktop.png",
     },
+        {
+      version: "Tiny 10 22h2 by WindowsAndLinux",
+      suitableFor: "",
+      whatsNew: `Debloated 22h2 LTSC! .`,
+      price: "Free",
+      link: "https://archive.org/details/tiny-10-x-64",
+    },
     ],
   ChlorideArchiveVersions: [
     {
