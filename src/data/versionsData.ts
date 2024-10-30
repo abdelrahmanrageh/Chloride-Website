@@ -9,13 +9,13 @@ export const versionsNames = [
 
 export const versions = {
   AtomOSVersions: [
-    {
-      version: "AtomOS 11 23h2 Standard   ( Discontinued )",
-      suitableFor: "Lighest windows 11 release",
+      {
+      version: "AtomOS ( Smallest windows release you can find )",
+      suitableFor: "The best, Made by project chloride",
       whatsNew:
-        "0 bloatwares ,lower cpu processes after tweaking ( 50 - 60 ) , lower ram usage ( 0.9 - 1.2 GB ), 1.8GB iso",
+        "Just try it",
       price: "Free",
-      link: "https://2yrw6h-my.sharepoint.com/:u:/g/personal/chloride_2yrw6h_onmicrosoft_com/EVdTdwlh92pEjpZyfq8npBIBXRZaLRjW53GmHVUBx_lRAg?e=l7zzH6",
+      link: "https://atom-os.vercel.app/",
     },
   ],
   ChlorideOS10Versions: [
