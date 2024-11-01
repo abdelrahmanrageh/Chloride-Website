@@ -9,31 +9,40 @@ export const versionsNames = [
 
 export const versions = {
   AtomOSVersions: [
-    {
-      version: "AtomOS 11 23h2 Standard ",
-      suitableFor: "Lighest windows 11 release",
+      {
+      version: "AtomOS ( Smallest windows release you can find )",
+      suitableFor: "The best, Made by project chloride",
       whatsNew:
-        "0 bloatwares ,lower cpu processes after tweaking ( 50 - 60 ) , lower ram usage ( 0.9 - 1.2 GB ), 1.8GB iso",
+        "Just try it",
       price: "Free",
-      link: "https://mega.nz/file/Z4k2VQ5S#-B7wY1-kG4M6EDErUqzZBtzZma53e0D4RXbf5s7DM1E",
+      link: "https://atom-os.vercel.app/",
     },
   ],
   ChlorideOS10Versions: [
+    
     {
-      version: "ChlorideOS 21H2 Enterprise LTSC Extreme ",
-      suitableFor: "Best Option for you",
+      version: "ChlorideOS 21H2 Extreme v3 ",
+      suitableFor: "Best Option for you, ready to use with Microsoft store",
       whatsNew:
-        "0 bloatwares ,lower cpu processes after tweaking ( 50 - 60 ) , lower ram usage ( 0.7 - 0.9 GB ), 3.4GB iso",
+        "0 bloatwares ,lower cpu processes after using chloride tweaks ( 45 - 55 ) , lower ram usage ( 0.8 - 1.3 GB ), 1.3GB iso",
       price: "Free",
-      link: "https://mega.nz/folder/5800zSpJ#wP1fJCt9yC_xpdWZfo0UAw",
+      link: "https://www.mediafire.com/file/z3fdo1as40g7pag/ChlorideOS+10+21h2+v3+Extreme.rar/file",
     },
     {
-      version: "ChlorideOS 22h2 Debloated Beta",
+      version: "ChlorideOS 21H2 Enterprise LTSC Extreme ",
+      suitableFor: "Good for mid end devices",
+      whatsNew:
+        "0 bloatwares ,lower cpu processes after tweaking ( 60 - 70 ) , lower ram usage ( 0.7 - 0.9 GB ), 3.4GB iso",
+      price: "Free",
+      link: "https://2yrw6h-my.sharepoint.com/personal/chloride_2yrw6h_onmicrosoft_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fchloride%5F2yrw6h%5Fonmicrosoft%5Fcom%2FDocuments%2FChlorideOS%2010%20Enterprise%20LTSC%20Extreme%2Eiso&parent=%2Fpersonal%2Fchloride%5F2yrw6h%5Fonmicrosoft%5Fcom%2FDocuments&ga=1",
+    },
+    {
+      version: "ChlorideOS 22h2 Debloated ",
       suitableFor: "Simple Daily Use",
       whatsNew:
         "0 bloatwares ,lower cpu processes after tweaking ( 35 - 50 ) , lower ram usage ( 1.3 GB ), No Bluetooth , No Printing , 3.9GB iso",
       price: "Free",
-      link: "https://www.mediafire.com/folder/de2p58pxbw1fr/Free+ChlorideO+10+1.0.0+22h2",
+      link: "https://2yrw6h-my.sharepoint.com/:u:/g/personal/chloride_2yrw6h_onmicrosoft_com/ERu5umVM4lpNkw2fGW2lIeMBHwKCGjhNNh2kAs5f1klHmQ?e=aYdyQa",
     },
 
     {
@@ -42,7 +51,7 @@ export const versions = {
       whatsNew:
         "80% Of bloatwares removed , lower cpu process after tweaking ( 45 - 60 ) , lower ram usage ( 1.0 - 1.3 GB ), Only 7-8 GB of disk usage, Chloride Tweaks, 2.6GB iso ",
       price: "Free",
-      link: "https://www.mediafire.com/folder/m9tn5maskec0g/ChlorideOS+10+1809+SUPER+LIGHT",
+      link: "https://2yrw6h-my.sharepoint.com/personal/chloride_2yrw6h_onmicrosoft_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fchloride%5F2yrw6h%5Fonmicrosoft%5Fcom%2FDocuments%2FChlorideOS%2010%201809%20SUPER%20LIGHT%2Eiso&parent=%2Fpersonal%2Fchloride%5F2yrw6h%5Fonmicrosoft%5Fcom%2FDocuments&ga=1",
     },
 
     {
@@ -54,10 +63,10 @@ export const versions = {
       link: "https://chlorideos.netlify.app/",
     },
     {
-      version: "ChlorideOS 21h2 LTSC Ultimate",
-      suitableFor: "Best & most stable Windows10 you can find",
+      version: "ChlorideOS 21h2 Ltsc Ultimate V3",
+      suitableFor: "Best ChlorideOS Release Ever",
       whatsNew:
-        "0 bloatwares, lower cpu process after tweaking ( 40-50 ) , lower ram usage ( 0.5 - 0.8 GB ), Only 7-8 GB of disk usage, 3.4GB iso",
+        "0 bloatwares, 50 CPU processes , Low RAM usage ( 0.9gb ), Only 9GB of disk usage, 3.6GB iso",
       price: "With Tweaks Ultimate Plan",
       link: "https://chlorideos.netlify.app/",
     },
@@ -78,10 +87,18 @@ export const versions = {
       whatsNew:
         "70% Of bloatwares removed ,low after tweaking cpu processes ( 60 - 70 ) , lowe ram usage ( 1.7 GB ), 4.6GB iso",
       price: "Free",
-      link: "https://mega.nz/file/wgUF1KIQ#9vbMZgxmmaO2DIVZWJIA98QxrEsJEQV5MG6A70Knn8Y",
+      link: "https://2yrw6h-my.sharepoint.com/:u:/g/personal/chloride_2yrw6h_onmicrosoft_com/EecmQ2vZDlNGuNyIYmLtdnEBd4a5NdAFTKqX7LTK-oGm0A?e=BUsXc3",
+    },
+        {
+      version: "ChlorideOS 23H2 Ultimate v2 ",
+      suitableFor: "Best custom windows release you can find",
+      whatsNew:
+        "0 bloatwares removed , lower cpu process ( 70-80 ) , lower ram usage ( 1.0 - 1.5 GB ), Only 9-10 GB of disk usage, Chloride Tweaks , Chloride Post setup folder, windows defender, snipping tool, windows defender remover, 3.68GB iso",
+      price: "With Tweaks Ultimate Plan",
+      link: "https://chlorideos.netlify.app/",
     },
     {
-      version: "ChlorideOS 22H2 Extreme ",
+      version: "ChlorideOS 22H2 Ultimate ",
       suitableFor: "Lightest Version Ever, Best For Low End Devices",
       whatsNew:
         "100% Of bloatwares removed , lower cpu process ( 70-80 ) , lower ram usage ( 1.0 - 1.3 GB ), Only 9-10 GB of disk usage, Chloride Tweaks , Chloride Post Install Folder, 2.8GB iso",
@@ -113,7 +130,8 @@ export const versions = {
   ],
 
   OtherCustomReleasesVersions: [
-    {
+    
+     {
       version: "AtlasOS11 23h2 iso",
       suitableFor: "",
       whatsNew: `AtlasOS 11 23H2 (ISO download) is here!, this new release has been rebuilt using the VMware for project,
@@ -122,6 +140,13 @@ export const versions = {
       link: "https://archive.org/details/atlasos1123h2/Screenshot%20(2).png",
     },
     {
+      version: "AtlasOS10 21h2 iso",
+      suitableFor: "",
+      whatsNew: `AtlasOS 10 21H2 (ISO download) is here! .`,
+      price: "Free",
+      link: "https://drive.usercontent.google.com/download?id=1ecrgwe_YMMYtIXeBCdhw8hSeny-kSUVO&export=download&authuser=0",
+    },   
+    {
       version: "AtlasOS10 20h2 iso",
       suitableFor: "",
       whatsNew: `AtlasOS 10 20H2 (ISO download) is here!, this new release has been rebuilt using the VMware for project,
@@ -129,14 +154,35 @@ export const versions = {
       price: "Free",
       link: "https://archive.org/details/atlas-v0.4.2/1_desktop.png",
     },
-  ],
+        {
+      version: "Tiny 10 22h2 by WindowsAndLinux",
+      suitableFor: "",
+      whatsNew: `Debloated 22h2 LTSC! .`,
+      price: "Free",
+      link: "https://archive.org/details/tiny-10-x-64",
+    },
+            {
+      version: "Nano11 24h2",
+      suitableFor: "",
+      whatsNew: `Better windows 11 24h2 release!.`,
+      price: "Free",
+      link: "https://nano11-dev.github.io/",
+    },
+    ],
   ChlorideArchiveVersions: [
+    {
+      version: "Chloride Optimizer",
+      suitableFor: "",
+      whatsNew: `Get lower CPU and RAM usage with 1 tool! .`,
+      price: "Free",
+      link: "https://www.mediafire.com/file/58jl0dn03ywj23a/ChlorideTweaker.rar/file",
+    },
     {
       version: "Chloride processes lower",
       suitableFor: "",
-      whatsNew: `Get more than 60 cpu process with onlu 1 click! .`,
+      whatsNew: `Get more than 60 cpu process with onlu 1 click! Pass: 123 .`,
       price: "Free",
-      link: "https://www.mediafire.com/file/ytvl1wkmgdnqnxb/Chloride_processes_lower.rar/file",
+      link: "https://www.mediafire.com/file/op75cau4qwk9pdj/ChlorideProcessesLower.rar/file",
     },
     {
       version: "Chloride Wallpapers",
@@ -148,9 +194,9 @@ export const versions = {
     {
       version: "Chloride Post Install",
       suitableFor: "",
-      whatsNew: `A good package contains scripts and tools that can be helpful for you.`,
+      whatsNew: `A good package contains scripts and tools that can be helpful for you. Pass: 123 `,
       price: "Free",
-      link: "https://www.mediafire.com/file/njzhwk5azy1bmsu/Chloride_Post_install.rar/file",
+      link: "https://www.mediafire.com/file/q5669d1pmdkimqg/post_setup.rar/file",
     },
   ],
 };
