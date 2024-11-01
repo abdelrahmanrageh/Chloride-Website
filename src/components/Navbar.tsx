@@ -2,15 +2,14 @@
 import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 import { FaDiscord } from "react-icons/fa";
+import { FiExternalLink } from "react-icons/fi";
 
 export default function Navbar() {
   return (
     <nav className="">
       <div className=" sm:px-8 px-3 sm:py-2 py-5 flex fixed top-0 z-50 justify-between items-center w-full ring-1 ring-cyan-900  bg-gray-950 bg-opacity-50 backdrop-blur-md">
         {/* logo */}
-        <Link
-          to="/"
-          className="flex items-center">
+        <Link to="/" className="flex items-center">
           <img
             src={logo}
             alt="logo"
@@ -19,8 +18,20 @@ export default function Navbar() {
           <p className="text-white ml-4 font-bold text-xl">ChlorideOS</p>
         </Link>
         {/* download button */}
+
+        <Link
+          to="https://atom-os.vercel.app/"
+          // smooth={true}
+          // duration={500}
+          className="flex items-center text-gray-300  transition-all cursor-pointer"
+        >
+          visit
+          <span className="bg-gradient-to-r ml-2 flex items-center from-teal-200 to-sky-500   bg-clip-text text-transparent font-bold text-2xl ">   AtomOS</span>
+          <FiExternalLink className="text-sky-400 inline ml-1 text-lg" />
+        </Link>
         <div className="flex items-center">
           {/* <button>Premium</button> */}
+
           <a
             href="https://discord.gg/9ZCgxhaYV6"
             target="_blank"
@@ -34,7 +45,7 @@ export default function Navbar() {
             /> */}
             <FaDiscord className="text-white h-8 w-8 mr-2 hover:text-blue-100  transition-all cursor-pointer" />
           </a>
-        
+
           <Link
             to="/download"
             // smooth={true}
@@ -53,7 +64,6 @@ export default function Navbar() {
             </svg>
             Download
           </Link>
-          
         </div>
       </div>
     </nav>
