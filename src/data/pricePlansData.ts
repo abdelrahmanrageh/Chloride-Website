@@ -1,4 +1,5 @@
 export const standardPlan = [
+  "Access to all of Free ChlorideOS Releases",
   "Up to a 20% FPS increase",
   "25 Tweaking tools",
   "100mb of tweaking scripts",
@@ -14,8 +15,9 @@ export const standardPlan = [
 
 export const ultimatePlan = [
   "Gives you the access to all of the Chloride Windows Releases",
+  "LifeTime Support",
   "Up to a 55% FPS increase",
-  "450 Tweaking tools",
+  "75 Tweaking tools",
   "615mb of tweaking scripts",
   "1,746 files of scripts, tools, and others",
   "Modified",
@@ -30,14 +32,5 @@ export const ultimatePlan = [
   "GPU Tweaks",
   "USB Tweaks",
   "Mouse and Keyboard Tweaks",
-  "Uninstall Useless Preinstalled Apps",
-  "Registry Optimization",
-  "Deep PC Debloating",
-  "Advanced Power Optimization",
-  "Ultimate Windows Debloating",
-  "Performance Turbo Optimizer",
-  "RAM Turbo Optimizer",
-  "Disable Windows Defender",
-  "Enable Turbo Boot",
   "50+ More Features"
 ];
