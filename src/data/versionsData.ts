@@ -141,7 +141,7 @@ export const versions = {
       price: "Free",
       link: "https://nano11-dev.github.io/",
     },
-    },
+ 
 
     ],
   ChlorideArchiveVersions: [
