@@ -19,32 +19,22 @@ export const versions = {
     },
   ],
   ChlorideOS10Versions: [
-    
+      {
+      version: "ChlorideOS 21H2 LTSC Extreme v2 ",
+      suitableFor: "Best Option for you, ready to use",
+      whatsNew:
+        "0 bloatwares ,lower cpu processes after tweaking ( 60 - 70 ) , lower ram usage ( 0.7 - 0.9 GB ), 3.4GB iso",
+      price: "Free",
+      link: "https://2yrw6h-my.sharepoint.com/personal/chloride_2yrw6h_onmicrosoft_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fchloride%5F2yrw6h%5Fonmicrosoft%5Fcom%2FDocuments%2FChlorideOS%2010%20Enterprise%20LTSC%20Extreme%2Eiso&parent=%2Fpersonal%2Fchloride%5F2yrw6h%5Fonmicrosoft%5Fcom%2FDocuments&ga=1",
+    },  
     {
       version: "ChlorideOS 21H2 Extreme v3 ",
-      suitableFor: "Best Option for you, ready to use with Microsoft store",
+      suitableFor: "Best for gaming",
       whatsNew:
         "0 bloatwares ,lower cpu processes after using chloride tweaks ( 45 - 55 ) , lower ram usage ( 0.8 - 1.3 GB ), 1.3GB iso",
       price: "Free",
       link: "https://www.mediafire.com/file/z3fdo1as40g7pag/ChlorideOS+10+21h2+v3+Extreme.rar/file",
     },
-    {
-      version: "ChlorideOS 21H2 Enterprise LTSC Extreme ",
-      suitableFor: "Good for mid end devices",
-      whatsNew:
-        "0 bloatwares ,lower cpu processes after tweaking ( 60 - 70 ) , lower ram usage ( 0.7 - 0.9 GB ), 3.4GB iso",
-      price: "Free",
-      link: "https://2yrw6h-my.sharepoint.com/personal/chloride_2yrw6h_onmicrosoft_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fchloride%5F2yrw6h%5Fonmicrosoft%5Fcom%2FDocuments%2FChlorideOS%2010%20Enterprise%20LTSC%20Extreme%2Eiso&parent=%2Fpersonal%2Fchloride%5F2yrw6h%5Fonmicrosoft%5Fcom%2FDocuments&ga=1",
-    },
-    {
-      version: "ChlorideOS 22h2 Debloated ",
-      suitableFor: "Simple Daily Use",
-      whatsNew:
-        "0 bloatwares ,lower cpu processes after tweaking ( 35 - 50 ) , lower ram usage ( 1.3 GB ), No Bluetooth , No Printing , 3.9GB iso",
-      price: "Free",
-      link: "https://2yrw6h-my.sharepoint.com/:u:/g/personal/chloride_2yrw6h_onmicrosoft_com/ERu5umVM4lpNkw2fGW2lIeMBHwKCGjhNNh2kAs5f1klHmQ?e=aYdyQa",
-    },
-
     {
       version: "ChlorideOS 1809 Debloated",
       suitableFor: "Best For Low End Devices",
@@ -74,14 +64,6 @@ export const versions = {
 
   ChlorideOS11Versions: [
     {
-      version: "ChlorideOS 22h2 Debloated",
-      suitableFor: "Simple Daily Use",
-      whatsNew:
-        "80% Of bloatwares removed ,lower cpu processes ( 80 - 100 ) , lower ram usage ( 1.4 GB ), 2.9GB iso",
-      price: "Free",
-      link: "https://mega.nz/folder/opVQkLoB#I2Ths0zhZ9wdPBcihrvElA",
-    },
-    {
       version: "ChlorideOS 23h2 Debloated",
       suitableFor: "Simple Daily Use",
       whatsNew:
@@ -89,7 +71,7 @@ export const versions = {
       price: "Free",
       link: "https://2yrw6h-my.sharepoint.com/:u:/g/personal/chloride_2yrw6h_onmicrosoft_com/EecmQ2vZDlNGuNyIYmLtdnEBd4a5NdAFTKqX7LTK-oGm0A?e=BUsXc3",
     },
-        {
+    {
       version: "ChlorideOS 23H2 Ultimate v2 ",
       suitableFor: "Best custom windows release you can find",
       whatsNew:
