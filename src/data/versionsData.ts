@@ -19,30 +19,14 @@ export const versions = {
     },
   ],
   ChlorideOS10Versions: [
-      {
-      version: "ChlorideOS 21H2 LTSC Extreme v2 ",
-      suitableFor: "Best Option for you, ready to use",
+       {
+      version: "ChlorideOS 10 Extreme SE ",
+      suitableFor: "The best ChlorideOS 10 release ever, Based on AtlasOS 21h2, PreTweaked and Ready to use",
       whatsNew:
-        "0 bloatwares ,lower cpu processes after tweaking ( 60 - 70 ) , lower ram usage ( 0.7 - 0.9 GB ), 3.4GB iso",
+        "0 bloatwares ,Low CPU processes ( 45 - 50 ), Low RAM usage ( 0.6 - 0.8 GB ), 1.6GB iso",
       price: "Free",
-      link: "https://2yrw6h-my.sharepoint.com/personal/chloride_2yrw6h_onmicrosoft_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fchloride%5F2yrw6h%5Fonmicrosoft%5Fcom%2FDocuments%2FChlorideOS%2010%20Enterprise%20LTSC%20Extreme%2Eiso&parent=%2Fpersonal%2Fchloride%5F2yrw6h%5Fonmicrosoft%5Fcom%2FDocuments&ga=1",
+      link: "https://www.mediafire.com/file/tatnfav17q0m0ad/ChlorideOS+10+Extreme+SE.rar/file",
     },  
-    {
-      version: "ChlorideOS 21H2 Extreme v3 ",
-      suitableFor: "Best for gaming",
-      whatsNew:
-        "0 bloatwares ,lower cpu processes after using chloride tweaks ( 45 - 55 ) , lower ram usage ( 0.8 - 1.3 GB ), 1.3GB iso",
-      price: "Free",
-      link: "https://www.mediafire.com/file/z3fdo1as40g7pag/ChlorideOS+10+21h2+v3+Extreme.rar/file",
-    },
-    {
-      version: "ChlorideOS 1809 Debloated",
-      suitableFor: "Best For Low End Devices",
-      whatsNew:
-        "80% Of bloatwares removed , lower cpu process after tweaking ( 45 - 60 ) , lower ram usage ( 1.0 - 1.3 GB ), Only 7-8 GB of disk usage, Chloride Tweaks, 2.6GB iso ",
-      price: "Free",
-      link: "https://2yrw6h-my.sharepoint.com/personal/chloride_2yrw6h_onmicrosoft_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fchloride%5F2yrw6h%5Fonmicrosoft%5Fcom%2FDocuments%2FChlorideOS%2010%201809%20SUPER%20LIGHT%2Eiso&parent=%2Fpersonal%2Fchloride%5F2yrw6h%5Fonmicrosoft%5Fcom%2FDocuments&ga=1",
-    },
 
     {
       version: "ChlorideOS 1909 Ultimate",
