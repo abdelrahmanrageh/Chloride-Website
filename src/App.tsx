@@ -32,7 +32,7 @@ export default function App() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.8 }}
           >
-            Enjoy 35% better performance and lighter Experience By Removing most
+            Enjoy 25% better performance and lighter Experience By Removing most
             of Microsoft's tracking, pre-installed apps, and bloatware
           </m.p>
 
@@ -65,7 +65,7 @@ export default function App() {
             transition={{ duration: 1, delay: 1 }}
             className="mb-20 text-gray-400 text-xs mt-2 text-center"
           >
-            FREE ChlorideOS v1.0 (90MB)
+            Want more?
           </m.p>
         </HeroSection>
 
@@ -77,9 +77,9 @@ export default function App() {
             Need More Than This?
           </h2>
           <p>
-            Don't worry there is a premium version with 70% more tools than free
-            version and with weekly updates, Just for ~3$. Yeah less than your
-            Espresso
+ Need more? 
+ ChlorideOS ultimate plan with access to all of the ChlorideOS and ChlorideTweaks Paid Releases
+
           </p>
           <div>Go to Premium</div>
           <img
