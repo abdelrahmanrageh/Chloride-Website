@@ -48,12 +48,12 @@ export const versions = {
 
   ChlorideOS11Versions: [
     {
-      version: "ChlorideOS 23h2 Debloated",
-      suitableFor: "Simple Daily Use",
+      version: "ChlorideOS 23h2 Extreme SE",
+      suitableFor: "Soon",
       whatsNew:
-        "70% Of bloatwares removed ,low after tweaking cpu processes ( 60 - 70 ) , lowe ram usage ( 1.7 GB ), 4.6GB iso",
+        "Soon",
       price: "Free",
-      link: "https://2yrw6h-my.sharepoint.com/:u:/g/personal/chloride_2yrw6h_onmicrosoft_com/EecmQ2vZDlNGuNyIYmLtdnEBd4a5NdAFTKqX7LTK-oGm0A?e=BUsXc3",
+      link: "",
     },
     {
       version: "ChlorideOS 23H2 Ultimate v2 ",
