@@ -63,18 +63,18 @@ function VideosSection() {
             videoKey="first"
           >
             <p className="sm:text-3xl z-20 absolute text-xl font-semibold text-left md:-ml-5 -mt-10 ">
-              The best custom windows for gamers? ChlorideOS 10 SE
+              ChlorideOS 10 SE
             </p>
           </VideoComponent>
         </div>
         <div className="max-h-[200px] ">
           <VideoComponent
-            videoId="wNrzCIhxEAs"
+            videoId="_lzfV_k1Ofw"
             title="This is Windows 10 X - ChlorideOS X"
             videoKey="second"
           >
             <p className="sm:text-3xl  z-20 absolute text-xl font-semibold text-left md:-ml-5 -mt-10 ">
-              This is Windows 10 X - ChlorideOS X
+              ChlorideOS 11 Ultimate
             </p>
           </VideoComponent>
         </div>
