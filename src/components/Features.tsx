@@ -50,7 +50,7 @@ function Features() {
           </svg>
           <h2 className="text-lg font-semibold text-center">Privacy in chloride</h2>
           <p className="mt-5  w-full text-gray-400 text-center">
-            Completely get rid of Windows defender{" "}
+            Completely get rid of Windows defender, With malwarebytes PreInstalled{" "}
           </p>
         </div>
         {/* <div className="flex flex-col mt-16  items-center lg:justify-start justify-center lg:w-1/4 hover:scale-105 hover:shadow-lightBlueShadow rounded-3xl transition-all p-5">
