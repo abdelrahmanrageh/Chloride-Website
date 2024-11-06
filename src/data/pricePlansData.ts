@@ -33,4 +33,5 @@ export const ultimatePlan = [
   "USB Tweaks",
   "Mouse and Keyboard Tweaks",
   "50+ More Features"
+  "By getting the ultimate plan you are buying Chloride Tweaks, Chloride Tools and only getting an access to all of the ChlorideOS Releases",
 ];
