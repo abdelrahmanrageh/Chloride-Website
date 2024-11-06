@@ -10,17 +10,60 @@ export const versionsNames = [
 export const versions = {
   AtomOSVersions: [
       {
-      version: "AtomOS ( Smallest windows release you can find )",
-      suitableFor: "The best, Made by project chloride",
+      version: "AtomOS 10 1909 Lite",
+      suitableFor: "For low-spec devices",
       whatsNew:
-        "Just try it",
+        "Size: ~1.3GB",
       price: "Free",
       link: "https://atom-os.vercel.app/",
     },
+
+          {
+      version: "AtomOS 10 21h2 AtomOS Standard",
+      suitableFor: "The best option for you, Based on AtlasOS",
+      whatsNew:
+        "Size: ~1.6GB",
+      price: "Free",
+      link: "https://atom-os.vercel.app/",
+    },
+
+              {
+      version: "AtomOS Extreme",
+      suitableFor: "The Most stable windows Experience you can find",
+      whatsNew:
+        "Size: ~2.8GB",
+      price: "Free",
+      link: "https://atom-os.vercel.app/",
+    },
+
+
+
+
+
+
+
+
+
+
+    
+
+    {
+      version: "AtomOS 11 23H2 Lite",
+      suitableFor: "For low-spec devices",
+      whatsNew:
+        "Size: 1.8GB",
+      price: "Free",
+      link: "https://atom-os.vercel.app/",
+    },
+   
+
+    
+
+    
   ],
   ChlorideOS10Versions: [
        {
-      version: "ChlorideOS 10 Extreme SE ",
+      version: "ChlorideOS 10 Extreme SE v1.0.0",
       suitableFor: "The best ChlorideOS 10 release ever, Based on AtlasOS 21h2, PreTweaked and Ready to use",
       whatsNew:
         "0 bloatwares ,Low CPU processes ( 45 - 50 ), Low RAM usage ( 0.6 - 0.8 GB ), 1.6GB iso",
@@ -29,18 +72,10 @@ export const versions = {
     },  
 
     {
-      version: "ChlorideOS 1909 Ultimate",
-      suitableFor: "Lightest Windows10 Ever",
+      version: "ChlorideOS 10  21h2 LTSC Ultimate V4",
+      suitableFor: "Best ChlorideOS 10 Release You can find, Coming Soon",
       whatsNew:
-        "0 bloatwares, lower cpu process after tweaking ( 40-55 ) , lower ram usage ( 0.5 - 0.7 GB ), Only 4-5 GB of disk usage, Chloride Post Install Folder, 1.2GB iso",
-      price: "With Tweaks Ultimate Plan",
-      link: "https://chlorideos.netlify.app/",
-    },
-    {
-      version: "ChlorideOS 21h2 Ltsc Ultimate V3",
-      suitableFor: "Best ChlorideOS Release Ever",
-      whatsNew:
-        "0 bloatwares, 50 CPU processes , Low RAM usage ( 0.9gb ), Only 9GB of disk usage, 3.6GB iso",
+        "0 bloatwares, 50 CPU processes , Low RAM usage ( 0.9gb ), Only 8GB of disk usage, 2.5GB iso",
       price: "With Tweaks Ultimate Plan",
       link: "https://chlorideos.netlify.app/",
     },
@@ -55,19 +90,12 @@ export const versions = {
       price: "Free",
       link: "",
     },
+
     {
-      version: "ChlorideOS 23H2 Ultimate v2 ",
-      suitableFor: "Best custom windows release you can find",
-      whatsNew:
-        "0 bloatwares removed , lower cpu process ( 70-80 ) , lower ram usage ( 1.0 - 1.5 GB ), Only 9-10 GB of disk usage, Chloride Tweaks , Chloride Post setup folder, windows defender, snipping tool, windows defender remover, 3.68GB iso",
-      price: "With Tweaks Ultimate Plan",
-      link: "https://chlorideos.netlify.app/",
-    },
-    {
-      version: "ChlorideOS 22H2 Ultimate ",
+      version: "ChlorideOS 23h2 Ultimate SE",
       suitableFor: "Lightest Version Ever, Best For Low End Devices",
       whatsNew:
-        "100% Of bloatwares removed , lower cpu process ( 70-80 ) , lower ram usage ( 1.0 - 1.3 GB ), Only 9-10 GB of disk usage, Chloride Tweaks , Chloride Post Install Folder, 2.8GB iso",
+        "100% Of bloatwares removed , lower cpu process ( 55-65 ) , lower ram usage ( 1.7 - 1.9 GB ), Only 12-14 GB of disk usage, 4GB iso",
       price: "With Tweaks Ultimate Plan",
       link: "https://chlorideos.netlify.app/",
     },
@@ -75,12 +103,12 @@ export const versions = {
 
   tweaksVersions: [
     {
-      version: "Standard Plan",
+      version: "Standard ChlorideOS optimization package",
       suitableFor: "",
-      whatsNew: `Gain up to 20% FPS boost with 25 essential tools and 100MB of scripts. Enjoy performance, network, power tweaks,
-       GPU optimization, registry enhancements, deep PC debloating, and tailored Fortnite optimization for a competitive edge.`,
+      whatsNew: `Gain up to 20% FPS boost with alot of usefull. Enjoy performance, network, power tweaks,
+       GPU optimization, registry enhancements, deep PC debloating.`,
       price: "Free",
-      link: "https://www.mediafire.com/folder/t32zpuvdwzrjd/Tweaks",
+      link: "",
     },
     {
       version: "Ultimate Plan",
