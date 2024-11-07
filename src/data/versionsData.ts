@@ -103,18 +103,18 @@ export const versions = {
 
   tweaksVersions: [
     {
-      version: "Standard ChlorideOS optimization package",
+      version: "ChlorideTweaks Standard",
       suitableFor: "",
-      whatsNew: `Gain up to 20% FPS boost with alot of usefull. Enjoy performance, network, power tweaks,
+      whatsNew: `Gain up to 20% FPS boost with usefull tools. Enjoy performance, network, power tweaks,
        GPU optimization, registry enhancements, deep PC debloating.`,
       price: "Free",
-      link: "",
+      link: "https://github.com/ArabWep/Chloride-Tweaks",
     },
     {
-      version: "Ultimate Plan",
+      version: "ChlorideTweaks Ultimate",
       suitableFor: "",
       whatsNew: `
-         Get 100% free access to all ChlorideOS versions, Boost FPS by 35% with 450 premium tools and 615MB of advanced scripts,
+         Get 100% free access to all ChlorideOS versions, Boost FPS by 30% with advanced scripts,
         offering optimizations for performance, privacy, network, power, BIOS, GPU, USB, and more. Remove unnecessary apps,
         optimize the registry, and enjoy deep PC debloating for a streamlined, efficient system. Elevate performance with
         advanced power optimization techniques.`,
