@@ -44,14 +44,22 @@ export const versions = {
 
 
 
+              {
+      version: "AtomOS Lite 24h2",
+      suitableFor: "The smallest windows 11 24h2 you can find",
+      whatsNew:
+        "Size: ~1.4GB",
+      price: "Free",
+      link: "https://atom-os.vercel.app/",
+    },
 
     
 
     {
-      version: "AtomOS 11 23H2 Lite",
-      suitableFor: "For low-spec devices",
+      version: "AtomOS 11 23H2 Standard",
+      suitableFor: "For mid-spec devices",
       whatsNew:
-        "Size: 1.8GB",
+        "Size: 1.9GB",
       price: "Free",
       link: "https://atom-os.vercel.app/",
     },
@@ -83,12 +91,12 @@ export const versions = {
 
   ChlorideOS11Versions: [
     {
-      version: "ChlorideOS 23h2 Extreme SE",
-      suitableFor: "Soon",
+      version: "ChlorideOS 24h2 Extreme v1.5.0",
+      suitableFor: "Low specs, old devices",
       whatsNew:
-        "Soon",
+        "No bluetooth, extremly debloated, come with Store, Xbox, Powershell",
       price: "Free",
-      link: "",
+      link: "https://qiwi.gg/file/ijhn1908-ChlorideOS11Extreme24h21",
     },
 
     {
