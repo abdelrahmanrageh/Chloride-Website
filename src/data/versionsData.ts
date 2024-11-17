@@ -9,60 +9,39 @@ export const versionsNames = [
 
 export const versions = {
   AtomOSVersions: [
-      {
+         {
       version: "AtomOS 10 1909 Lite",
       suitableFor: "For low-spec devices",
       whatsNew:
         "Size: ~1.3GB",
       price: "Free",
       link: "https://atom-os.vercel.app/",
-    },
-
-          {
-      version: "AtomOS 10 21h2 AtomOS Standard",
+         },
+         {
+      version: "AtomOS 10 21h2",
       suitableFor: "The best option for you, Based on AtlasOS",
       whatsNew:
         "Size: ~1.6GB",
       price: "Free",
       link: "https://atom-os.vercel.app/",
-    },
-
-              {
-      version: "AtomOS Extreme",
-      suitableFor: "The Most stable windows Experience you can find",
-      whatsNew:
-        "Size: ~2.8GB",
-      price: "Free",
-      link: "https://atom-os.vercel.app/",
-    },
-
-
-
-
-
-
-
-
-
-              {
-      version: "AtomOS Lite 24h2",
-      suitableFor: "The smallest windows 11 24h2 you can find",
-      whatsNew:
-        "Size: ~1.4GB",
-      price: "Free",
-      link: "https://atom-os.vercel.app/",
-    },
-
-    
-
-    {
+        },
+        {
       version: "AtomOS 11 23H2 Standard",
       suitableFor: "For mid-spec devices",
       whatsNew:
         "Size: 1.9GB",
       price: "Free",
       link: "https://atom-os.vercel.app/",
-    },
+        },
+        {
+      version: "AtomOS 11 Lite 24h2",
+      suitableFor: "The smallest windows 11 24h2 you can find",
+      whatsNew:
+        "Size: ~1.4GB",
+      price: "Free",
+      link: "https://atom-os.vercel.app/",
+       },
+
    
 
     
