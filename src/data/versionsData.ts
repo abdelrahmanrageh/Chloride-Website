@@ -9,19 +9,19 @@ export const versionsNames = [
 
   ChlorideOS10Versions: [
        {
-      version: "ChlorideOS 10 Extreme SE v1.0.0",
-      suitableFor: "The best ChlorideOS 10 release ever, Based on AtlasOS 21h2, PreTweaked and Ready to use",
+      version: "ChlorideOS 10 Extreme 22h2",
+      suitableFor: "The best for Mid, Low-End devices, Ready to use with all of the tools, apps you need",
       whatsNew:
-        "0 bloatwares ,Low CPU processes ( 45 - 50 ), Low RAM usage ( 0.6 - 0.8 GB ), 1.6GB iso",
+        "0 bloatwares ,Low CPU processes ( 70 - 90 ), Low RAM usage ( 0.9 - 1.2 GB ), 1.6GB iso",
       price: "Free",
-      link: "https://www.mediafire.com/file/tatnfav17q0m0ad/ChlorideOS+10+Extreme+SE.rar/file",
+      link: "https://gofile.io/d/hRlmOq",
     },  
 
     {
-      version: "ChlorideOS 10  21h2 LTSC Ultimate V4",
-      suitableFor: "Best ChlorideOS 10 Release You can find, Coming Soon",
+      version: "ChlorideOS 10 Ultimate 22h2",
+      suitableFor: "Best ChlorideOS 10 Release You can find!",
       whatsNew:
-        "0 bloatwares, 50 CPU processes , Low RAM usage ( 0.9gb ), Only 8GB of disk usage, 2.5GB iso",
+        "0 bloatwares, 70 CPU processes , Low RAM usage ( 1.0 gb ), Only 5GB of disk usage, 1.5GB iso",
       price: "With Tweaks Ultimate Plan",
       link: "https://chlorideos.netlify.app/",
     },
