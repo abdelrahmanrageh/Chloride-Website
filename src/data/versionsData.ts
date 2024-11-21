@@ -1,5 +1,4 @@
 export const versionsNames = [
-  "AtomOS",
   "ChlorideOS10",
   "ChlorideOS11",
   "tweaks",
@@ -7,47 +6,7 @@ export const versionsNames = [
   "ChlorideArchive",
 ];
  
-export const versions = {
-  AtomOSVersions: [
-         {
-      version: "AtomOS 10 1909 Lite",
-      suitableFor: "For low-spec devices",
-      whatsNew:
-        "Size: ~1.3GB",
-      price: "Free",
-      link: "https://atom-os.vercel.app/",
-         },
-         {
-      version: "AtomOS 10 21h2",
-      suitableFor: "The best option for you, Based on AtlasOS",
-      whatsNew:
-        "Size: ~1.6GB",
-      price: "Free",
-      link: "https://atom-os.vercel.app/",
-        },
-        {
-      version: "AtomOS 11 23H2 Standard",
-      suitableFor: "For mid-spec devices",
-      whatsNew:
-        "Size: 1.9GB",
-      price: "Free",
-      link: "https://atom-os.vercel.app/",
-        },
-        {
-      version: "AtomOS 11 Lite 24h2",
-      suitableFor: "The smallest windows 11 24h2 you can find",
-      whatsNew:
-        "Size: ~1.4GB",
-      price: "Free",
-      link: "https://atom-os.vercel.app/",
-       },
 
-   
-
-    
-
-    
-  ],
   ChlorideOS10Versions: [
        {
       version: "ChlorideOS 10 Extreme SE v1.0.0",
@@ -128,26 +87,11 @@ export const versions = {
       link: "https://drive.usercontent.google.com/download?id=1ecrgwe_YMMYtIXeBCdhw8hSeny-kSUVO&export=download&authuser=0",
     },   
     {
-      version: "AtlasOS10 20h2 iso",
-      suitableFor: "",
-      whatsNew: `AtlasOS 10 20H2 (ISO download) is here!, this new release has been rebuilt using the VMware for project,
-      AME Wizard Beta and AtlasOS playbook for creating AtlasOS! .`,
-      price: "Free",
-      link: "https://archive.org/details/atlas-v0.4.2/1_desktop.png",
-    },
-    {
       version: "Tiny 10 22h2 by WindowsAndLinux",
       suitableFor: "",
       whatsNew: `Debloated 22h2 LTSC! .`,
       price: "Free",
       link: "https://archive.org/details/tiny-10-x-64",
-    },
-    {
-      version: "Tiny 10 1903 by WindowsAndLinux",
-      suitableFor: "",
-      whatsNew: `Best 1903 Windows 10 you can find!.`,
-      price: "Free",
-      link: "https://archive.org/details/tiny-10-1903",
     },
     {
       version: "NanoOS 11 24h2",
@@ -161,16 +105,9 @@ export const versions = {
     ],
   ChlorideArchiveVersions: [
     {
-      version: "Chloride Optimizer",
-      suitableFor: "",
-      whatsNew: `Get lower CPU and RAM usage with 1 tool! .`,
-      price: "Free",
-      link: "https://www.mediafire.com/file/58jl0dn03ywj23a/ChlorideTweaker.rar/file",
-    },
-    {
       version: "Chloride processes lower",
       suitableFor: "",
-      whatsNew: `Get more than 60 cpu process with onlu 1 click! Pass: 123 .`,
+      whatsNew: `Get more than 60 cpu process with onlu 1 click!, "Dont use with wifi", Pass: 123 .`,
       price: "Free",
       link: "https://www.mediafire.com/file/op75cau4qwk9pdj/ChlorideProcessesLower.rar/file",
     },
@@ -180,13 +117,6 @@ export const versions = {
       whatsNew: `Get a package of nice ChlorideOS and Microsoft windows 11 style wallpapers! .`,
       price: "Free",
       link: "https://www.mediafire.com/folder/iuxuq1i0c4uhg/ChlorideWallpapers",
-    },
-    {
-      version: "Chloride Post Install",
-      suitableFor: "",
-      whatsNew: `A good package contains scripts and tools that can be helpful for you. Pass: 123 `,
-      price: "Free",
-      link: "https://www.mediafire.com/file/q5669d1pmdkimqg/post_setup.rar/file",
     },
   ],
 };
