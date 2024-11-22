@@ -7,12 +7,13 @@ export const versionsNames = [
 ];
  
 
+export const versions = {
+
   ChlorideOS10Versions: [
        {
       version: "ChlorideOS 10 Extreme 22h2",
       suitableFor: "The best for Mid, Low-End devices, Ready to use with all of the tools, apps you need",
-      whatsNew:
-        "0 bloatwares ,Low CPU processes ( 70 - 90 ), Low RAM usage ( 0.9 - 1.2 GB ), 1.6GB iso",
+      whatsNew:"0 bloatwares ,Low CPU processes ( 70 - 90 ), Low RAM usage ( 0.9 - 1.2 GB ), 1.6GB iso",
       price: "Free",
       link: "https://gofile.io/d/hRlmOq",
     },  
