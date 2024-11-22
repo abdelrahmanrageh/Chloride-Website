@@ -11,7 +11,7 @@ function DownloadPage() {
 
   const Windows10Table = () => {
     const [versionsData, setVersionsData] = useState(
-      versions.AtomOSVersions
+      versions.ChlorideOS11Versions
     );
 
     useEffect(() => {
