@@ -83,17 +83,10 @@ export const versions = {
     {
       version: "AtlasOS10 21h2 iso",
       suitableFor: "",
-      whatsNew: `AtlasOS 10 21H2 (ISO download) is here! .`,
+      whatsNew: `AtlasOS 10 21H2 (ISO download) is here! Pass: 01234 .`,
       price: "Free",
       link: "https://drive.usercontent.google.com/download?id=1ecrgwe_YMMYtIXeBCdhw8hSeny-kSUVO&export=download&authuser=0",
     },   
-    {
-      version: "Tiny 10 22h2 by WindowsAndLinux",
-      suitableFor: "",
-      whatsNew: `Debloated 22h2 LTSC! .`,
-      price: "Free",
-      link: "https://archive.org/details/tiny-10-x-64",
-    },
     {
       version: "NanoOS 11 24h2",
       suitableFor: "",
