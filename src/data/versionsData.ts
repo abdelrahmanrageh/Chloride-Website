@@ -99,6 +99,13 @@ export const versions = {
     ],
   ChlorideArchiveVersions: [
     {
+        version: "Chloride GPU Tweaking pack",
+      suitableFor: "",
+      whatsNew: `Overclock your GPU and get the highest performance you can get, Pass: 123 .`,
+      price: "Free",
+      link: "https://www.mediafire.com/file/ubjdthbp73wq2z6/ChlorideOS+GPU+Tweaking+Pack.rar/file",
+    },
+    {
       version: "Chloride processes lower",
       suitableFor: "",
       whatsNew: `Get more than 60 cpu process with onlu 1 click!, "Dont use with wifi", Pass: 123 .`,
