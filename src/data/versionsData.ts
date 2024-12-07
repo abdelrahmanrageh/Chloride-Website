@@ -35,7 +35,7 @@ export const versions = {
       whatsNew:
         "No bluetooth, extremly debloated, come with Store, Xbox, Powershell",
       price: "Free",
-      link: "https://qiwi.gg/file/ijhn1908-ChlorideOS11Extreme24h21",
+      link: "https://ghmbybdabrezbrkai.xyz/d/xuci7mq5oghlriinozg3oqy3dnbqex6c3v26gsgqkzw2ux345qmqfkklesc74qshagavxatutho5mmi/ChlorideOS%2011%20Extreme%2024h2%201.5.0.iso",
     },
 
     {
