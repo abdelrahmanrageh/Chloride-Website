@@ -55,7 +55,7 @@ export const versions = {
       whatsNew: `Gain up to 20% FPS boost with usefull tools. Enjoy performance, network, power tweaks,
        GPU optimization, registry enhancements, deep PC debloating.`,
       price: "Free",
-      link: "https://www.mediafire.com/file/tga5zsevidwd5e4/ChlorideTweaks_1.0.0_Standard.rar/file",
+      link: "https://www.mediafire.com/file/cbxb31p5jiu0nur/Chloride_Tweaks_Standard_2.0.0.rar/file",
     },
     {
       version: "ChlorideTweaks Ultimate",
