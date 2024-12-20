@@ -13,9 +13,9 @@ export const versions = {
        {
       version: "ChlorideOS 10 SuperLight 21h2",
       suitableFor: "Best windows 10 build ever released for gamers, Low, mid, high-End devices, Ready to use with all of the tools, apps you need",
-      whatsNew:"0 bloatwares ,Low CPU processes ( 45 ), Low RAM usage ( 0.7 ), 2.4GB iso. Thats 21h2 not 22h2, the file is named 22h2, Thats normal nvm",
-      price: "Released for ultimate clients, Will be released for all of you soon",
-      link: "",
+      whatsNew:"0 bloatwares ,Low CPU processes ( 45 ), Low RAM usage ( 0.8 ), 2.4GB iso. Thats 21h2 not 22h2, the file is named 22h2, Thats normal nvm",
+      price: "Free",
+      link: "https://qiwi.gg/file/iSEi8629-ChlorideOS1022h2SuperLight",
     },  
 {
       version: "ChlorideOS 10 Extreme 22h2",
