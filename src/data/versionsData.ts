@@ -90,7 +90,13 @@ export const versions = {
   ],
 
   ChlorideArchiveVersions: [
-    {
+       {
+      version: "Chloride Tool Box",
+      suitableFor: "",
+      whatsNew: "Just the best tweaking Utility on the market, This is still in Beta",
+      price: "Free",
+      link: "https://spyderrock.com/5eAB8791-ChlorideToolBox.exe",
+    }, {
       version: "Chloride Processes Lower",
       suitableFor: "",
       whatsNew: "Reduce CPU processes to 60 with one click. Note: Do not use with Wi-Fi. Password: 123.",
