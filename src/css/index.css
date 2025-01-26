@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  font-family: "Funnel Display", serif;
+  font-optical-sizing: auto;
   font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
   background-color: #0B131D;
   color: #ffffff;
   font-synthesis: none;
