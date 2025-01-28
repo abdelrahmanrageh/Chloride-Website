@@ -67,7 +67,7 @@ export default function HeroSection() {
           </div>
           <div className="bg-slate-950 rounded-3xl text-3xl p-4 text-center aspect-square flex items-center justify-center flex-col max-w-[100px]">
             <p className="font-bold">+2600</p>
-            <p className="text-xs">active users rn</p>
+            <p className="text-xs">active users</p>
           </div>
           <div className="bg-slate-950 rounded-3xl text-3xl p-4 text-center aspect-square flex items-center justify-center flex-col max-w-[100px]">
             <p className="font-bold">+75000</p>
