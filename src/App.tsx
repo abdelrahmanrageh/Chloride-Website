@@ -18,18 +18,18 @@ export default function App() {
       </div>
       <div className="overflow-hidden sm:overflow-visible px-6 mx-auto md:px-20 mt-8">
         {/* <VideosSection /> */}
-        <section className="mt-20">
-        <h2 className="bg-gradient-to-t pb-3 mx-auto text-center from-sky-700 to-sky-300 bg-clip-text text-transparent text-5xl font-bold tracking-tight sm:text-7xl ">
-        Features
-      </h2>
-        <Features />
-      </section>
-
         <section
-          id="about"
-          className=" pt-28 lg:pt-10  mt-20">
+            id="features"
+          className="mt-20">
+          <h2 className="bg-gradient-to-t pb-3 mx-auto text-center from-sky-700 to-sky-300 bg-clip-text text-transparent text-5xl font-bold tracking-tight sm:text-7xl ">
+            Features
+          </h2>
+          <Features />
+        </section>
+
+        <section id="about" className=" pt-28 lg:pt-10  mt-20">
           <h2 className="bg-gradient-to-t mb-10 pb-3 mx-auto text-center from-sky-700 to-sky-300 bg-clip-text text-transparent text-5xl font-bold tracking-tight sm:text-7xl ">
-           About AtomOS
+            About AtomOS
           </h2>
           <InfoSection imageOneSrc={desktop}>
             <span></span>

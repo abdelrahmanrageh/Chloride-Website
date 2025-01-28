@@ -41,7 +41,7 @@ const questions = [
 
 export default function FAQ() {
   return (
-    <section className="my-16 ">
+    <section id="faq" className="my-16 ">
       <div className="mx-auto flex max-w-container flex-col items-center gap-8">
         <h2 className="text-center text-3xl font-semibold sm:text-5xl">
           Questions and Answers

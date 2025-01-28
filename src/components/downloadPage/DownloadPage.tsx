@@ -4,15 +4,18 @@ import { FaDownload } from "react-icons/fa";
 import { motion as m } from "framer-motion";
 import { Link } from "react-router-dom";
 
+// const 
+
+
 function DownloadPage() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   const [os, setOs] = useState(versionsNames[0]);
 
-  const Windows10Table = () => {
+  const VersionsTable = () => {
     const [versionsData, setVersionsData] = useState(
-      versions.ChlorideOS11Versions
+      versions.AtomOS10Versions
     );
 
     useEffect(() => {
@@ -93,10 +96,11 @@ function DownloadPage() {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
-            className="bg-gray-950 p-10 rounded-xl  hover:shadow-sky-700/30 hover:shadow-md transition-all duration-300 ease-linear hover:scale-[1.01]">
+            className="bg-gray-950 p-10 rounded-xl  hover:shadow-sky-700/30 hover:shadow-md transition-all duration-300 ease-linear hover:scale-[1.01]"
+          >
             <p className="text-2xl md:text-3xl font-bold">Atom Tweaks</p>
             <p className="text-xs md:text-sm text-gray-400">Version 1.2</p>
-            <span className="text-xs md:text-sm text-gray-400">Size 50mb</span>
+            <span className="text-xs md:text-sm text-gray-400">Size: 50mb</span>
             <div className="flex justify-center items-center gap-4 mt-2">
               <Link
                 className=" bg-sky-600 text-white px-4 py-2 rounded-full  block"
@@ -110,11 +114,14 @@ function DownloadPage() {
           {/* grid 4 cols downloads */}
           <div className="grid md:grid-cols-4 gap-4">
             <m.div
-               initial={{ opacity: 0, y: -20 }}
-               animate={{ opacity: 1, y: 0 }}
-               transition={{ duration: 1, delay: 0.2 }}
-              className="bg-gray-950 flex flex-col w-full  p-10 rounded-xl  hover:shadow-sky-700/30 hover:shadow-md transition-all ease-linear duration-300 hover:scale-[1.01]">
-              <p className="text-2xl text-center md:text-3xl font-bold">Atom Tweaks</p>
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.2 }}
+              className="bg-gray-950 flex flex-col w-full  p-10 rounded-xl  hover:shadow-sky-700/30 hover:shadow-md transition-all ease-linear duration-300 hover:scale-[1.01]"
+            >
+              <p className="text-2xl text-center md:text-3xl font-bold">
+                Atom Tweaks
+              </p>
               <p className="text-xs md:text-sm text-gray-400">Version 1.2</p>
               <span className="text-xs md:text-sm text-gray-400">
                 Size 50mb
@@ -129,13 +136,16 @@ function DownloadPage() {
                 <Link to="#">More</Link>
               </div>
             </m.div>
-         
+
             <m.div
-               initial={{ opacity: 0, y: -20 }}
-               animate={{ opacity: 1, y: 0 }}
-               transition={{ duration: 1, delay: 0.2 }}
-              className="bg-gray-950 flex flex-col w-full  p-10 rounded-xl  hover:shadow-sky-700/30 hover:shadow-md transition-all ease-linear duration-300 hover:scale-[1.01]">
-              <p className="text-2xl text-center md:text-3xl font-bold">Atom Tweaks</p>
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.2 }}
+              className="bg-gray-950 flex flex-col w-full  p-10 rounded-xl  hover:shadow-sky-700/30 hover:shadow-md transition-all ease-linear duration-300 hover:scale-[1.01]"
+            >
+              <p className="text-2xl text-center md:text-3xl font-bold">
+                Atom Tweaks
+              </p>
               <p className="text-xs md:text-sm text-gray-400">Version 1.2</p>
               <span className="text-xs md:text-sm text-gray-400">
                 Size 50mb
@@ -150,13 +160,16 @@ function DownloadPage() {
                 <Link to="#">More</Link>
               </div>
             </m.div>
-         
+
             <m.div
-               initial={{ opacity: 0, y: -20 }}
-               animate={{ opacity: 1, y: 0 }}
-               transition={{ duration: 1, delay: 0.2 }}
-              className="bg-gray-950 flex flex-col w-full  p-10 rounded-xl  hover:shadow-sky-700/30 hover:shadow-md transition-all ease-linear duration-300 hover:scale-[1.01]">
-              <p className="text-2xl text-center md:text-3xl font-bold">Atom Tweaks</p>
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.2 }}
+              className="bg-gray-950 flex flex-col w-full  p-10 rounded-xl  hover:shadow-sky-700/30 hover:shadow-md transition-all ease-linear duration-300 hover:scale-[1.01]"
+            >
+              <p className="text-2xl text-center md:text-3xl font-bold">
+                Atom Tweaks
+              </p>
               <p className="text-xs md:text-sm text-gray-400">Version 1.2</p>
               <span className="text-xs md:text-sm text-gray-400">
                 Size 50mb
@@ -171,13 +184,16 @@ function DownloadPage() {
                 <Link to="#">More</Link>
               </div>
             </m.div>
-         
+
             <m.div
-               initial={{ opacity: 0, y: -20 }}
-               animate={{ opacity: 1, y: 0 }}
-               transition={{ duration: 1, delay: 0.2 }}
-              className="bg-gray-950 flex flex-col w-full  p-10 rounded-xl  hover:shadow-sky-700/30 hover:shadow-md transition-all ease-linear duration-300 hover:scale-[1.01]">
-              <p className="text-2xl text-center md:text-3xl font-bold">Atom Tweaks</p>
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.2 }}
+              className="bg-gray-950 flex flex-col w-full  p-10 rounded-xl  hover:shadow-sky-700/30 hover:shadow-md transition-all ease-linear duration-300 hover:scale-[1.01]"
+            >
+              <p className="text-2xl text-center md:text-3xl font-bold">
+                Atom Tweaks
+              </p>
               <p className="text-xs md:text-sm text-gray-400">Version 1.2</p>
               <span className="text-xs md:text-sm text-gray-400">
                 Size 50mb
@@ -192,8 +208,6 @@ function DownloadPage() {
                 <Link to="#">More</Link>
               </div>
             </m.div>
-         
-         
           </div>
         </div>
 
@@ -218,7 +232,7 @@ function DownloadPage() {
               </div>
             ))}
           </div>
-          <Windows10Table />
+          <VersionsTable />
         </m.div>
 
         {/* Gradient */}

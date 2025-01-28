@@ -1,15 +1,15 @@
 export const versionsNames = [
-  "ChlorideOS10",
-  "ChlorideOS11",
+  "AtomOS10",
+  "AtomOS11",
   "tweaks",
-  "OtherCustomReleases",
-  "ChlorideArchive",
+  // "OtherCustomReleases",
+  "Archive",
 ];
  
 
 export const versions = {
 
-  ChlorideOS10Versions: [
+  AtomOS10Versions: [
        {
       version: "ChlorideOS 10 Extreme 22h2",
       suitableFor: "The best for Mid, Low-End devices, Ready to use with all of the tools, apps you need",
@@ -28,7 +28,7 @@ export const versions = {
     },
   ],
 
-  ChlorideOS11Versions: [
+  AtomOS11Versions: [
     {
       version: "ChlorideOS 24h2 Extreme v1.5.0",
       suitableFor: "Low specs, old devices",
@@ -70,41 +70,41 @@ export const versions = {
     },
   ],
 
-  OtherCustomReleasesVersions: [
+  // OtherCustomReleasesVersions: [
     
-     {
-      version: "AtlasOS11 23h2 iso",
-      suitableFor: "",
-      whatsNew: `AtlasOS 11 23H2 (ISO download) is here!, this new release has been rebuilt using the VMware for project,
-      AME Wizard Beta and AtlasOS playbook for creating AtlasOS! .`,
-      price: "Free",
-      link: "https://archive.org/details/atlasos1123h2/Screenshot%20(2).png",
-    },
-    {
-      version: "AtlasOS10 21h2 iso",
-      suitableFor: "",
-      whatsNew: `AtlasOS 10 21H2 (ISO download) is here! .`,
-      price: "Free",
-      link: "https://drive.usercontent.google.com/download?id=1ecrgwe_YMMYtIXeBCdhw8hSeny-kSUVO&export=download&authuser=0",
-    },   
-    {
-      version: "Tiny 10 22h2 by WindowsAndLinux",
-      suitableFor: "",
-      whatsNew: `Debloated 22h2 LTSC! .`,
-      price: "Free",
-      link: "https://archive.org/details/tiny-10-x-64",
-    },
-    {
-      version: "NanoOS 11 24h2",
-      suitableFor: "",
-      whatsNew: `Better windows 11 24h2 release!.`,
-      price: "Free",
-      link: "https://nano11-dev.github.io/",
-    },
+  //    {
+  //     version: "AtlasOS11 23h2 iso",
+  //     suitableFor: "",
+  //     whatsNew: `AtlasOS 11 23H2 (ISO download) is here!, this new release has been rebuilt using the VMware for project,
+  //     AME Wizard Beta and AtlasOS playbook for creating AtlasOS! .`,
+  //     price: "Free",
+  //     link: "https://archive.org/details/atlasos1123h2/Screenshot%20(2).png",
+  //   },
+  //   {
+  //     version: "AtlasOS10 21h2 iso",
+  //     suitableFor: "",
+  //     whatsNew: `AtlasOS 10 21H2 (ISO download) is here! .`,
+  //     price: "Free",
+  //     link: "https://drive.usercontent.google.com/download?id=1ecrgwe_YMMYtIXeBCdhw8hSeny-kSUVO&export=download&authuser=0",
+  //   },   
+  //   {
+  //     version: "Tiny 10 22h2 by WindowsAndLinux",
+  //     suitableFor: "",
+  //     whatsNew: `Debloated 22h2 LTSC! .`,
+  //     price: "Free",
+  //     link: "https://archive.org/details/tiny-10-x-64",
+  //   },
+  //   {
+  //     version: "NanoOS 11 24h2",
+  //     suitableFor: "",
+  //     whatsNew: `Better windows 11 24h2 release!.`,
+  //     price: "Free",
+  //     link: "https://nano11-dev.github.io/",
+  //   },
  
 
-    ],
-  ChlorideArchiveVersions: [
+  //   ],
+  ArchiveVersions: [
     {
       version: "Chloride processes lower",
       suitableFor: "",

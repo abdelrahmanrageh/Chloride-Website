@@ -1,6 +1,7 @@
 // import { Link } from "react-scroll";
 import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
+// import { Link as scrollLink} from "react-scroll";
 import { FaDiscord } from "react-icons/fa";
 // import { FiExternalLink } from "react-icons/fi";
 
@@ -25,15 +26,16 @@ export default function Navbar() {
               <li>
                 <Link
                   className="hover:text-gray-300 transition-all"
-                  to={"#features"}
+                  to={"/download"}
                 >
-                  Features
+                  Downloads
                 </Link>
               </li>
               <li>
                 <Link
                   className="hover:text-gray-300 transition-all"
-                  to={"#about"}
+                  to={"/#about"}
+                  
                 >
                   About Us
                 </Link>
@@ -41,7 +43,7 @@ export default function Navbar() {
               <li>
                 <Link
                   className="hover:text-gray-300 transition-all"
-                  to={"#features"}
+                  to={"/#prices"}
                 >
                   Pricing
                 </Link>
@@ -49,25 +51,14 @@ export default function Navbar() {
               <li>
                 <Link
                   className="hover:text-gray-300 transition-all"
-                  to={"#features"}
+                  to={"/#faq"}
                 >
                   FAQ
                 </Link>
               </li>
             </ul>
           </nav>
-          {/* <Link
-            to="https://atom-os.vercel.app/"
-            // smooth={true}
-            // duration={500}
-            className=" items-center text-gray-300  transition-all cursor-pointer hidden md:flex"
-          >
-            visit
-            <span className="bg-gradient-to-r ml-2 flex items-center from-teal-200 to-sky-500   bg-clip-text text-transparent font-bold text-2xl ">
-              {" "}
-              AtomOS
-            </span>
-          </Link> */}
+  
           <div className="flex items-center">
             {/* <button>Premium</button> */}
 
