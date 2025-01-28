@@ -39,7 +39,7 @@ const plans = [
       "Cpu, Ram, Gpu, Usb Tweaks",
       "Gpu Over Clocking",
       "Hidden Bios Tweaks",
-      "Custom Windows build make specially for you",
+      "2 Custom Windows builds make specially for you",
       "Discord Ultimate subscription role",
     ],
     additionalFeatures: [
