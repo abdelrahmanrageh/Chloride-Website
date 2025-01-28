@@ -67,11 +67,11 @@ export default function HeroSection() {
           </div>
           <div className="bg-slate-950 rounded-3xl text-3xl p-4 text-center aspect-square flex items-center justify-center flex-col max-w-[100px]">
             <p className="font-bold">No</p>
-            <p className="text-xs">Defender</p>
+            <p className="text-xs">Windows Defender</p>
           </div>
           <div className="bg-slate-950 rounded-3xl text-3xl p-4 text-center aspect-square flex items-center justify-center flex-col max-w-[100px]">
             <p className="font-bold">No</p>
-            <p className="text-xs"> Updates</p>
+            <p className="text-xs">Windows Updates</p>
           </div>
         </m.div>
       </div>
