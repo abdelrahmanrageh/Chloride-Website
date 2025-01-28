@@ -16,7 +16,7 @@ export default function HeroSection() {
           It's Time To Change
         </h2>
         <h3 className="text-center  text-xl  text-gray-400 mb-10 px-5">
-          Lorem ipsum dolor sit a numquam cupiditate qui tempore
+          It's time for a new Windows experience.
         </h3>
         <Link
           href="#prices"
