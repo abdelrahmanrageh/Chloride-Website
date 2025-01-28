@@ -24,7 +24,7 @@ export default function HeroSection() {
           smooth={true}
           className="bg-slate-900 max-w-[200px] mx-auto text-center block cursor-pointer text-white px-14 py-3 rounded-3xl transition-all mb-10"
         >
-          Price Plans
+          Need More than this?
         </Link>
       </m.div>
       <div className="flex">
