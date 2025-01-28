@@ -24,7 +24,6 @@ const plans = [
       "Windows Settings Tweaks",
       "Cpu, Ram, Gpu, Usb Tweaks",
       "Gpu Over Clocking",
-      "50GB storage",
       "Custom Windows build make specially for you",
     ],
     additionalFeatures: [
