@@ -1,9 +1,7 @@
 // import { Link } from "react-scroll";
 import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
-import { Link as ScrollLink } from "react-scroll";
 // import { Link as scrollLink} from "react-scroll";
-import { FaDiscord } from "react-icons/fa";
 import { useEffect, useState } from "react";
 // import { FiExternalLink } from "react-icons/fi";
 export default function Navbar() {
