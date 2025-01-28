@@ -11,15 +11,15 @@ export const versions = {
 
   AtomOS10Versions: [
        {
-      version: "ChlorideOS 10 Extreme 22h2",
-      suitableFor: "The best for Mid, Low-End devices, Ready to use with all of the tools, apps you need",
-      whatsNew:"0 bloatwares ,Low CPU processes ( 70 - 90 ), Low RAM usage ( 0.9 - 1.2 GB ), 1.6GB iso",
+      version: "AtomOS 10 1909 Lite",
+      suitableFor: "The best Windows 10 Build for old hardware",
+      whatsNew:"0 bloatwares, Low CPU processes, Low RAM usage, 1.3GB iso",
       price: "Free",
-      link: "https://gofile.io/d/hRlmOq",
+      link: "https://www.mediafire.com/file/4hj024ftj1frcf5/AtomOS_10_Lite_1909_v1.rar/file",
     },  
 
     {
-      version: "ChlorideOS 10 Ultimate 22h2",
+      version: "AtomOS 10 22h2 Standard",
       suitableFor: "Best ChlorideOS 10 Release You can find!",
       whatsNew:
         "0 bloatwares, 70 CPU processes , Low RAM usage ( 1.0 gb ), Only 5GB of disk usage, 1.5GB iso",
@@ -30,30 +30,39 @@ export const versions = {
 
   AtomOS11Versions: [
     {
-      version: "ChlorideOS 24h2 Extreme v1.5.0",
-      suitableFor: "Low specs, old devices",
+      version: "AtomOS 11 24h2 Lite",
+      suitableFor: "The best Windows 11 Build for old hardware",
       whatsNew:
-        "No bluetooth, extremly debloated, come with Store, Xbox, Powershell",
+        "Lower CPU processes, Lower RAM usage, extremly debloated, come with Store, Xbox, Powershell, Lower ISO Size ( 1.3GB )",
       price: "Free",
-      link: "https://qiwi.gg/file/ijhn1908-ChlorideOS11Extreme24h21",
+      link: "https://qiwi.gg/file/saHR5820-AtomOS11Lite24h2v1",
     },
-
+    
     {
-      version: "ChlorideOS 23h2 Ultimate SE",
-      suitableFor: "Lightest Version Ever, Best For Low End Devices",
+      version: "AtomOS 11 24h2 Standard",
+      suitableFor: "Good for high-end hardware ( UnSupported )",
       whatsNew:
-        "100% Of bloatwares removed , lower cpu process ( 55-65 ) , lower ram usage ( 1.7 - 1.9 GB ), Only 12-14 GB of disk usage, 4GB iso",
-      price: "With Tweaks Ultimate Plan",
-      link: "https://chlorideos.netlify.app/",
+        "Zero bloatwares, lower cpu process, lower ram usage, Lower disk usage, 2.6GB iso",
+      price: "Free",
+      link: "https://gofile.io/d/7K250C",
+    },
+    
+    {
+      version: "AtomOS 11 23h2 Standard",
+      suitableFor: "The Best Windows 11 Build for Mid-End devices",
+      whatsNew:
+        "Zero bloatwares, lower cpu process, lower ram usage, Only 12-14 GB of disk usage, 4GB iso",
+      price: "Free",
+      link: "https://gofile.io/d/UZByx9",
     },
   ],
 
   tweaksVersions: [
     {
-      version: "ChlorideTweaks Standard",
+      version: "Chloride Tweaks Standard",
       suitableFor: "",
       whatsNew: `Gain up to 20% FPS boost with usefull tools. Enjoy performance, network, power tweaks,
-       GPU optimization, registry enhancements, deep PC debloating.`,
+       GPU optimization, registry enhancements, deep PC debloating. ( UnSupported )`,
       price: "Free",
       link: "https://www.mediafire.com/file/tga5zsevidwd5e4/ChlorideTweaks_1.0.0_Standard.rar/file",
     },
@@ -72,52 +81,44 @@ export const versions = {
 
   // OtherCustomReleasesVersions: [
     
-  //    {
-  //     version: "AtlasOS11 23h2 iso",
-  //     suitableFor: "",
-  //     whatsNew: `AtlasOS 11 23H2 (ISO download) is here!, this new release has been rebuilt using the VMware for project,
-  //     AME Wizard Beta and AtlasOS playbook for creating AtlasOS! .`,
-  //     price: "Free",
-  //     link: "https://archive.org/details/atlasos1123h2/Screenshot%20(2).png",
-  //   },
-  //   {
-  //     version: "AtlasOS10 21h2 iso",
-  //     suitableFor: "",
-  //     whatsNew: `AtlasOS 10 21H2 (ISO download) is here! .`,
-  //     price: "Free",
-  //     link: "https://drive.usercontent.google.com/download?id=1ecrgwe_YMMYtIXeBCdhw8hSeny-kSUVO&export=download&authuser=0",
-  //   },   
-  //   {
-  //     version: "Tiny 10 22h2 by WindowsAndLinux",
-  //     suitableFor: "",
-  //     whatsNew: `Debloated 22h2 LTSC! .`,
-  //     price: "Free",
-  //     link: "https://archive.org/details/tiny-10-x-64",
-  //   },
-  //   {
-  //     version: "NanoOS 11 24h2",
-  //     suitableFor: "",
-  //     whatsNew: `Better windows 11 24h2 release!.`,
-  //     price: "Free",
-  //     link: "https://nano11-dev.github.io/",
-  //   },
- 
+//      {
+//       version: "AtlasOS11 23h2 iso",
+//       suitableFor: "",
+//       whatsNew: `AtlasOS 11 23H2 (ISO download) is here!, this new release has been rebuilt using the VMware for project,
+//       AME Wizard Beta and AtlasOS playbook for creating AtlasOS! .`,
+//       price: "Free",
+//       link: "https://archive.org/details/atlasos1123h2/Screenshot%20(2).png",
+//     },
+//     {
+//       version: "AtlasOS10 21h2 iso",
+//       suitableFor: "",
+//       whatsNew: `AtlasOS 10 21H2 (ISO download) is here! .`,
+//       price: "Free",
+//       link: "https://drive.usercontent.google.com/download?id=1ecrgwe_YMMYtIXeBCdhw8hSeny-kSUVO&export=download&authuser=0",
+//     },   
+//     {
+//       version: "Tiny 10 22h2 by WindowsAndLinux",
+//       suitableFor: "",
+//       whatsNew: `Debloated 22h2 LTSC! .`,
+//       price: "Free",
+//       link: "https://archive.org/details/tiny-10-x-64",
+//     },
+//     {
+//       version: "NanoOS 11 24h2",
+//       suitableFor: "",
+//       whatsNew: `Better windows 11 24h2 release!.`,
+//       price: "Free",
+//       link: "https://nano11-dev.github.io/",
+//     },
 
-  //   ],
+//     ],
   ArchiveVersions: [
     {
       version: "Chloride processes lower",
       suitableFor: "",
-      whatsNew: `Get more than 60 cpu process with onlu 1 click!, "Dont use with wifi", Pass: 123 .`,
+      whatsNew: `Get more than 60 cpu process with 1 Sxript!, "Will Disable the Wifi", Pass: 123 .`,
       price: "Free",
       link: "https://www.mediafire.com/file/op75cau4qwk9pdj/ChlorideProcessesLower.rar/file",
-    },
-    {
-      version: "Chloride Wallpapers",
-      suitableFor: "",
-      whatsNew: `Get a package of nice ChlorideOS and Microsoft windows 11 style wallpapers! .`,
-      price: "Free",
-      link: "https://www.mediafire.com/folder/iuxuq1i0c4uhg/ChlorideWallpapers",
     },
   ],
 };

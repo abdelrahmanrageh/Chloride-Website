@@ -23,7 +23,7 @@ function Features() {
             Much better performance
           </h2>
           <p className="mt-5  w-full text-gray-400 text-center">
-            Enjoy faster and stronger performance by more than 25%
+            Enjoy faster and stronger performance by more than 30%
           </p>
         </div>
         <div className="flex flex-col  mt-16  items-center lg:justify-start justify-center lg:w-1/3 hover:scale-105 hover:shadow-lightBlueShadow rounded-3xl transition-all p-5">
@@ -41,7 +41,7 @@ function Features() {
             Lighter than light
           </h2>
           <p className="mt-5 w-full text-gray-400 text-center">
-            Get lighter than light Windows without useless apllication
+            Get lighter than light Windows with Zero bloatwares and less than 1.4GB RAM usage
           </p>
         </div>
         <div className="flex flex-col  mt-16 items-center lg:justify-start justify-center lg:w-1/3 hover:scale-105 hover:shadow-lightBlueShadow rounded-3xl transition-all p-5">

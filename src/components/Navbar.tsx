@@ -1,11 +1,33 @@
 // import { Link } from "react-scroll";
 import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 // import { Link as scrollLink} from "react-scroll";
 import { FaDiscord } from "react-icons/fa";
+import { useEffect, useState } from "react";
 // import { FiExternalLink } from "react-icons/fi";
-
 export default function Navbar() {
+  const navigators = [
+  
+ 
+
+    {
+      name: "About",
+      to: "/#about",
+    },
+    {
+      name: "Pricing",
+      to: "/#prices",
+    },
+    {
+      name: "FAQ",
+      to: "/#faq",
+    },
+  ];
+  useEffect(() => {
+    console.log(location.pathname);
+  }, [location.pathname]);
+  const [navbar, setNavbar] = useState(false);
   return (
     <>
       <nav className="">
@@ -19,10 +41,81 @@ export default function Navbar() {
             />
             <p className="text-white ml-2 font-bold text-2xl">AtomOS</p>
           </Link>
-          {/* download button */}
-
-          <nav className="hidden md:block">
-            <ul className="flex lg:gap-12 gap-2 ">
+          <nav>
+            {/* mobile menu  */}
+            <button
+              onClick={() => setNavbar(!navbar)}
+              data-collapse-toggle="navbar-default"
+              type="button"
+              className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-900 dark:focus:ring-gray-600"
+              aria-controls="navbar-default"
+              aria-expanded="false"
+            >
+              <span className="sr-only">Open main menu</span>
+              <svg
+                className="w-5 h-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 17 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 1h15M1 7h15M1 13h15"
+                />
+              </svg>
+            </button>
+            {navbar && (
+              <div
+                className=" w-full md:hidden md:w-auto absolute right-0 max-w-xs mr-3  backdrop-blur-xl mt-2"
+                id="navbar-default"
+              >
+                <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8  rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-950/95 md:dark:bg-gray-900 dark:border-sky-950">
+                  <li onClick={() => setNavbar(false)}>
+                    <Link
+                      to={"/"}
+                      className={`block py-2 px-3 text-white rounded-lg md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 ${
+                        location.pathname === "/" ? "bg-sky-500" : ""
+                      }`}
+                      aria-current="page"
+                    >
+                      Home
+                    </Link>
+                  </li>
+                  <li onClick={() => setNavbar(false)}>
+                    <Link
+                      to={"/download"}
+                      className={`block py-2 px-3 text-white rounded-lg md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 ${
+                        location.pathname === "/download" ? "bg-sky-500" : ""
+                      }`}
+                      aria-current="page"
+                    >
+                      Downloads
+                    </Link>
+                  </li>
+                  {navigators.map((nav, index) => (
+                    <>
+                      <li key={index} onClick={() => setNavbar(false)}>
+                        <Link
+                          to={nav.to}
+                          className={`block py-2 px-3 text-white rounded-lg md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 ${
+                            location.pathname === nav.to ? "bg-sky-500" : ""
+                          }`}
+                          aria-current="page"
+                        >
+                          {nav.name}
+                        </Link>
+                      </li>
+                    </>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {/* desktop */}
+            <ul className=" lg:gap-12 gap-4 hidden md:flex">
               <li>
                 <Link
                   className="hover:text-gray-300 transition-all"
@@ -32,49 +125,43 @@ export default function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link
+                <a
                   className="hover:text-gray-300 transition-all"
-                  to={"/#about"}
-                  
+                  href={"/#about"}
                 >
                   About Us
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="hover:text-gray-300 transition-all"
-                  to={"/#prices"}
+                  href={"/#prices"}
                 >
                   Pricing
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="hover:text-gray-300 transition-all"
-                  to={"/#faq"}
+                  href={"/#faq"}
                 >
                   FAQ
-                </Link>
+                </a>
               </li>
             </ul>
           </nav>
-  
-          <div className="flex items-center">
-            {/* <button>Premium</button> */}
 
+          <div className="md:flex items-center hidden">
+            {/* 
             <a
               href="https://discord.gg/9ZCgxhaYV6"
               target="_blank"
               title="Join our Discord"
               rel="noreferrer noopener"
             >
-              {/* <FontAwesomeIcon
-              icon={faUsers}
-              size="lg"
-              className="mr-5 hover:text-blue-200  transition-all cursor-pointer"
-            /> */}
+             
               <FaDiscord className="text-white h-8 w-8 mr-2 hover:text-blue-100  transition-all cursor-pointer" />
-            </a>
+            </a> */}
 
             <Link
               to="/download"

@@ -12,19 +12,19 @@ export default function HeroSection() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.2 }}
       >
-        <h2 className="text-center mt-40 md:mt-60 text-5xl md:text-6xl font-semibold text-gray-200  px-5">
+        <h2 className="text-center mt-40 md:mt-60 text-5xl md:text-6xl font-semibold text-gray-200  px-5 ">
           It's Time To Change
         </h2>
         <h3 className="text-center  text-xl  text-gray-400 mb-10 px-5">
-          Lorem ipsum dolor sit a numquam cupiditate qui tempore
+          It's time for a new Windows experience.
         </h3>
         <Link
           href="#prices"
           to="prices"
           smooth={true}
-          className="bg-slate-900 max-w-[200px] mx-auto text-center block cursor-pointer text-white px-14 py-3 rounded-3xl transition-all mb-10"
+          className="bg-slate-900 max-w-[300px] mx-auto text-center block cursor-pointer text-white px-14 py-3 rounded-3xl transition-all mb-10"
         >
-          Price Plans
+          Need More than this?
         </Link>
       </m.div>
       <div className="flex">
@@ -35,16 +35,16 @@ export default function HeroSection() {
           className="md:flex flex-col items-center justify-start gap-4 me-4 hidden"
         >
           <div className="bg-slate-950 rounded-3xl text-3xl p-4 text-center aspect-square flex items-center justify-center flex-col max-w-[100px]">
-            <p className="font-bold">50%</p>
-            <p className="text-xs">better Ram usage</p>
+            <p className="font-bold">70%</p>
+            <p className="text-xs">Lower Ram Usage</p>
           </div>
           <div className="bg-slate-950 rounded-3xl text-3xl p-4 text-center aspect-square flex items-center justify-center flex-col max-w-[100px]">
             <p className="font-bold">50%</p>
-            <p className="text-xs">better Ram usage</p>
+            <p className="text-xs">Lower Cpu Usage</p>
           </div>
           <div className="bg-slate-950 rounded-3xl text-3xl p-4 text-center aspect-square flex items-center justify-center flex-col max-w-[100px]">
-            <p className="font-bold">50%</p>
-            <p className="text-xs">better Ram usage</p>
+            <p className="font-bold">80%</p>
+            <p className="text-xs">Lower Disk Usage</p>
           </div>
         </m.div>
         <m.img
@@ -62,16 +62,16 @@ export default function HeroSection() {
           className="md:flex flex-col items-center justify-start gap-4 ms-4 hidden"
         >
           <div className="bg-slate-950 rounded-3xl text-3xl p-4 text-center aspect-square flex items-center justify-center flex-col max-w-[100px]">
-            <p className="font-bold">50%</p>
-            <p className="text-xs">better Ram usage</p>
+            <p className="font-bold">Zero</p>
+            <p className="text-xs">Bloatwares</p>
           </div>
           <div className="bg-slate-950 rounded-3xl text-3xl p-4 text-center aspect-square flex items-center justify-center flex-col max-w-[100px]">
-            <p className="font-bold">50%</p>
-            <p className="text-xs">better Ram usage</p>
+            <p className="font-bold">+2.6k</p>
+            <p className="text-xs">active users</p>
           </div>
           <div className="bg-slate-950 rounded-3xl text-3xl p-4 text-center aspect-square flex items-center justify-center flex-col max-w-[100px]">
-            <p className="font-bold">50%</p>
-            <p className="text-xs">better Ram usage</p>
+            <p className="font-bold">+75k</p>
+            <p className="text-xs">Downloads</p>
           </div>
         </m.div>
       </div>

@@ -7,35 +7,25 @@ import {
 const questions = [
   {
     question:
-      "Why building a great landing page is critical for your business?",
+      "Why can i need to install AtomOS?",
     answer:
-      "In today's AI-driven world, standing out is harder than ever. While anyone can build a product, a professional landing page makes the difference between success and failure. Launch UI helps you ship faster without compromising on quality.",
+      "Upgrading to a Windows system with 110 fewer background processes and 2GB less RAM usage will elevate your experience to a whole new level.",
   },
   {
-    question: "Why use Launch UI instead of a no-code tool?",
+    question: "Why should I choose this optimization service instead of using a custom OS ?",
     answer:
-      "No-code tools lock you into their ecosystem with recurring fees and limited control. They often come with performance issues and make it difficult to integrate with your product. You can't even change your hosting provider and basic things like web analytics come as extra costs and paid add-ons. What might seem like a convenient solution today could paint you into a corner tomorrow, limiting your ability to scale and adapt. Launch UI gives you full control of your code while maintaining professional quality.",
+      "With the optimization service, I will have access to your device using Anydesk, allowing me to tailor everything specifically to your PC's specifications and usage needs.",
   },
   {
     question:
-      "How Launch UI is different from other components libraries and templates?",
+      "How much more performance will I get with the optimization service and AtomOS compared to stock Windows?",
     answer:
-      "Launch UI stands out with premium design quality and delightful touches of custom animations and illustrations. All components are carefully crafted to help position your product as a professional tool, avoiding the generic template look. Unlike many libraries that rely on outdated CSS practices and old dependencies, Launch UI is built with modern technologies and best practices in mind.",
+      "You will experience a lighter system with more than three times the efficiency of Windows 10 and a performance boost of over 30%. All of this is proven through various comparisons and benchmarks conducted by our testing team over two full months of experimentation.",
   },
   {
-    question: "Why exactly does it mean that 'The code is yours'?",
+    question: "Is there any form of guarantee, and what about future support?",
     answer:
-      "The basic version of Launch UI is open-source and free forever, under a do-whatever-you-want license. The pro version that contains more components and options is a one-time purchase that gives you lifetime access to all current and future content. Use it for unlimited personal and commercial projects - no recurring fees or restrictions. For complete details about licensing and usage rights, check out the pricing page.",
-  },
-  {
-    question: "Are Figma files included?",
-    answer:
-      "Yes! The complete Launch UI template is available for free on the Figma community.",
-  },
-  {
-    question: "Can I get a discount?",
-    answer:
-      "Actually, yes! I'm looking for beta testers and great examples of Launch UI in action to feature on the website. Here's the deal: you provide feedback to help me improve the product, and in return, you get a huge discount plus a solid backlink for your product. If this interests you, don't hesitate to reach out by email.",
+      "Yes, we offer a lifetime guarantee and lifetime support for everything, in every aspect.",
   },
 ];
 

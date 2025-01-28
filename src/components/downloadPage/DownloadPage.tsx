@@ -4,8 +4,7 @@ import { FaDownload } from "react-icons/fa";
 import { motion as m } from "framer-motion";
 import { Link } from "react-router-dom";
 
-// const 
-
+// const
 
 function DownloadPage() {
   useEffect(() => {
@@ -13,10 +12,8 @@ function DownloadPage() {
   }, []);
   const [os, setOs] = useState(versionsNames[0]);
 
-  const VersionsTable = () => {
-    const [versionsData, setVersionsData] = useState(
-      versions.AtomOS10Versions
-    );
+  const Windows10Table = () => {
+    const [versionsData, setVersionsData] = useState(versions.AtomOS10Versions);
 
     useEffect(() => {
       setVersionsData(versions[`${os}Versions` as keyof typeof versions]);
@@ -27,18 +24,18 @@ function DownloadPage() {
     return (
       <>
         <div id="detailed-pricing" className="w-full overflow-x-auto ">
-          <div className="overflow-hidden  mt-6  border-2 border-gray-200 dark:border-gray-800 rounded-xl">
-            <div className="grid md:grid-cols-5 grid-cols-4 p-4  text-sm font-medium text-gray-900 rounded bg-gray-100 border border-gray-200 gap-x-16 dark:bg-gray-950 dark:border-gray-800 dark:text-white">
+          <div className="overflow-hidden mt-6 border-2 border-gray-200 dark:border-gray-800 rounded-xl">
+            <div className="grid md:grid-cols-5 grid-cols-4 p-4 text-sm font-medium text-gray-900 rounded bg-gray-100 border border-gray-200 gap-x-16 dark:bg-gray-950 dark:border-gray-800 dark:text-white">
               <div className="text-center">Version </div>
               <div className="col-span-3 max-w-[75%] mx-auto">What's New </div>
             </div>
             {versionsData.map((version) => (
               <div
                 key={version.version}
-                className="grid  md:grid-cols-5 grid-cols-4 px-4 overflow-x-auto overflow-y-hidden py-5 text-sm text-gray-500 border-t border-gray-200 md:gap-x-16 gap-x-2 dark:border-gray-800"
+                className="grid md:grid-cols-5 grid-cols-4 px-4 overflow-x-auto overflow-y-hidden py-5 text-sm text-gray-500 border-t border-gray-200 md:gap-x-16 gap-x-2 dark:border-gray-800"
               >
                 <div className="text-gray-500 dark:text-gray-400 flex flex-col items-center justify-center">
-                  <div className="md:text-sm overflow-hidden text-xs  font-semibold dark:text-gray-300">
+                  <div className="md:text-sm overflow-hidden text-xs font-semibold dark:text-gray-300">
                     {version.version}
                   </div>
                   <div className="text-[10px] md:text-xs leading-3 md:leading-5 text text-gray-400 dark:text-gray-500">
@@ -64,12 +61,12 @@ function DownloadPage() {
                       </a>
                     </>
                   ) : (
-                    <span className="hidden md:inline-block   ">
+                    <span className="hidden md:inline-block ">
                       {version.price}
                     </span>
                   )}
                   {/* <span className="hidden md:inline-block">{version.price }</span>
-                <span className="hidden md:inline-block">Download</span> */}
+<span className="hidden md:inline-block">Download</span> */}
                 </div>
               </div>
             ))}
@@ -100,7 +97,7 @@ function DownloadPage() {
           >
             <p className="text-2xl md:text-3xl font-bold">Atom Tweaks</p>
             <p className="text-xs md:text-sm text-gray-400">Version 1.2</p>
-            <span className="text-xs md:text-sm text-gray-400">Size: 50mb</span>
+            <span className="text-xs md:text-sm text-gray-400">Size 50mb</span>
             <div className="flex justify-center items-center gap-4 mt-2">
               <Link
                 className=" bg-sky-600 text-white px-4 py-2 rounded-full  block"
@@ -232,7 +229,7 @@ function DownloadPage() {
               </div>
             ))}
           </div>
-          <VersionsTable />
+          <Windows10Table />
         </m.div>
 
         {/* Gradient */}

@@ -1,7 +1,7 @@
 import Features from "./components/Features";
 
 // import properties from "./assets/properties.png";
-import desktop from "./assets/desktop.jpg";
+import desktop from "./assets/aboutAtomOS.jpg";
 import appImage from "./assets/app.png";
 // import PricePlans from "./components/pricePlans/PricePlans";
 
@@ -34,10 +34,7 @@ export default function App() {
           <InfoSection imageOneSrc={desktop}>
             <span></span>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-              voluptatibus consequatur labore, accusantium magnam sapiente
-              ratione expedita saepe modi itaque maxime consectetur ducimus!
-              Tempore odio mollitia libero obcaecati laborum omnis.
+AtomOS is a modified, lightweight, and optimized version of Windows. It is over three times lighter than the original Microsoft Windows, with performance improvements exceeding 30%. It comes completely free of bloatware, without Microsoft Windows Defender, and without Microsoft Windows updates. AtomOS uses three times less CPU and RAM compared to standard Windows, with fewer than 60 CPU processes—often as low as 40 or fewer.
             </p>
             <div>Go to Premium</div>
             <img
