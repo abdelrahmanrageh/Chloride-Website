@@ -17,8 +17,6 @@ function DownloadPage() {
 
     useEffect(() => {
       setVersionsData(versions[`${os}Versions` as keyof typeof versions]);
-      // console.log(`${os}Versions`);
-      // console.log(versionsData);
     }, [os]);
 
     return (
@@ -49,7 +47,7 @@ function DownloadPage() {
                   {version.price === "Free" ? (
                     <>
                       <a
-                        className=" cursor-pointer hover:text-gray-100"
+                        className="cursor-pointer hover:text-gray-100"
                         target="_blank"
                         rel="noreferrer noopener"
                         href={version.link}
@@ -61,12 +59,8 @@ function DownloadPage() {
                       </a>
                     </>
                   ) : (
-                    <span className="hidden md:inline-block   ">
-                      {version.price}
-                    </span>
+                    <span className="hidden md:inline-block">{version.price}</span>
                   )}
-                  {/* <span className="hidden md:inline-block">{version.price }</span>
-                <span className="hidden md:inline-block">Download</span> */}
                 </div>
               </div>
             ))}
@@ -78,14 +72,14 @@ function DownloadPage() {
 
   return (
     <>
-      <section className="container px-4 py-6 mx-auto space-y-6 ">
+      <section className="container px-4 py-6 mx-auto space-y-6">
         <m.h1
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
-          className="bg-gradient-to-t pb-10 from-sky-700 to-sky-300  bg-clip-text text-transparent text-5xl  font-bold tracking-tight text-left  mt-20"
+          className="bg-gradient-to-t pb-10 from-sky-700 to-sky-300 bg-clip-text text-transparent text-5xl font-bold tracking-tight text-left mt-20"
         >
-          Download AtomOS
+          Downloads
         </m.h1>
         <div className="mt-20 space-y-4">
           {/* The main download */}
@@ -93,107 +87,115 @@ function DownloadPage() {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
-            className="bg-gray-950 p-10 rounded-xl  hover:shadow-sky-700/30 hover:shadow-md transition-all duration-300 ease-linear hover:scale-[1.01]">
-            <p className="text-2xl md:text-3xl font-bold">Atom Tweaks</p>
-            <p className="text-xs md:text-sm text-gray-400">Version 1.2</p>
-            <span className="text-xs md:text-sm text-gray-400">Size 50mb</span>
+            className="bg-gray-950 p-10 rounded-xl hover:shadow-sky-700/30 hover:shadow-md transition-all duration-300 ease-linear hover:scale-[1.01]"
+          >
+            <p className="text-2xl md:text-3xl font-bold">Atom Tweaking Utility</p>
+            <p className="text-xs md:text-sm text-gray-400">Version: Beta 0.9</p>
+            <span className="text-xs md:text-sm text-gray-400">Size: ~20mb</span>
             <div className="flex justify-center items-center gap-4 mt-2">
-              <Link
-                className=" bg-sky-600 text-white px-4 py-2 rounded-full  block"
-                to="#"
+              <a
+                className="bg-sky-600 text-white px-4 py-2 rounded-full block"
+                href="https://qiwi.gg/file/oir29867-AtomTweakingUtility"
+                target="_blank"
+                rel="noreferrer"
               >
                 Download
-              </Link>
-              <Link to="#">More</Link>
+              </a>
+              <a href="https://youtu.be/QGNxS15fij0" target="_blank" rel="noreferrer">More</a>
             </div>
           </m.div>
+          
           {/* grid 4 cols downloads */}
           <div className="grid md:grid-cols-4 gap-4">
             <m.div
-               initial={{ opacity: 0, y: -20 }}
-               animate={{ opacity: 1, y: 0 }}
-               transition={{ duration: 1, delay: 0.2 }}
-              className="bg-gray-950 flex flex-col w-full  p-10 rounded-xl  hover:shadow-sky-700/30 hover:shadow-md transition-all ease-linear duration-300 hover:scale-[1.01]">
-              <p className="text-2xl text-center md:text-3xl font-bold">Atom Tweaks</p>
-              <p className="text-xs md:text-sm text-gray-400">Version 1.2</p>
-              <span className="text-xs md:text-sm text-gray-400">
-                Size 50mb
-              </span>
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.2 }}
+              className="bg-gray-950 flex flex-col w-full p-10 rounded-xl hover:shadow-sky-700/30 hover:shadow-md transition-all ease-linear duration-300 hover:scale-[1.01]"
+            >
+              <p className="text-2xl text-center md:text-3xl font-bold">AtomOS 10 Lite</p>
+              <p className="text-xs md:text-sm text-gray-400">Good for old hardware</p>
+              <p className="text-xs md:text-sm text-gray-400">Version: 1909</p>
+              <span className="text-xs md:text-sm text-gray-400">Size: 1.3 GB</span>
               <div className="flex justify-center items-center gap-4 mt-2 flex-wrap">
-                <Link
-                  className=" bg-sky-600 text-white px-4 py-2 rounded-full  block"
-                  to="#"
+                <a
+                  className="bg-sky-600 text-white px-4 py-2 rounded-full block"
+                  href="https://www.mediafire.com/file/4hj024ftj1frcf5/AtomOS_10_Lite_1909_v1.rar/file"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Download
-                </Link>
-                <Link to="#">More</Link>
+                </a>
               </div>
             </m.div>
-         
+
             <m.div
-               initial={{ opacity: 0, y: -20 }}
-               animate={{ opacity: 1, y: 0 }}
-               transition={{ duration: 1, delay: 0.2 }}
-              className="bg-gray-950 flex flex-col w-full  p-10 rounded-xl  hover:shadow-sky-700/30 hover:shadow-md transition-all ease-linear duration-300 hover:scale-[1.01]">
-              <p className="text-2xl text-center md:text-3xl font-bold">Atom Tweaks</p>
-              <p className="text-xs md:text-sm text-gray-400">Version 1.2</p>
-              <span className="text-xs md:text-sm text-gray-400">
-                Size 50mb
-              </span>
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.2 }}
+              className="bg-gray-950 flex flex-col w-full p-10 rounded-xl hover:shadow-sky-700/30 hover:shadow-md transition-all ease-linear duration-300 hover:scale-[1.01]"
+            >
+              <p className="text-2xl text-center md:text-3xl font-bold">AtomOS 11 Lite</p>
+              <p className="text-xs md:text-sm text-gray-400">Best for old hardware</p>
+              <p className="text-xs md:text-sm text-gray-400">Version: 24H2</p>
+              <span className="text-xs md:text-sm text-gray-400">Size: 1.3 GB</span>
               <div className="flex justify-center items-center gap-4 mt-2 flex-wrap">
-                <Link
-                  className=" bg-sky-600 text-white px-4 py-2 rounded-full  block"
-                  to="#"
+                <a
+                  className="bg-sky-600 text-white px-4 py-2 rounded-full block"
+                  href="https://qiwi.gg/file/saHR5820-AtomOS11Lite24h2v1"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Download
-                </Link>
-                <Link to="#">More</Link>
+                </a>
+                <a href="https://www.youtube.com/watch?v=_kkl_m3oRgk" target="_blank" rel="noreferrer">More</a>
               </div>
             </m.div>
-         
+
             <m.div
-               initial={{ opacity: 0, y: -20 }}
-               animate={{ opacity: 1, y: 0 }}
-               transition={{ duration: 1, delay: 0.2 }}
-              className="bg-gray-950 flex flex-col w-full  p-10 rounded-xl  hover:shadow-sky-700/30 hover:shadow-md transition-all ease-linear duration-300 hover:scale-[1.01]">
-              <p className="text-2xl text-center md:text-3xl font-bold">Atom Tweaks</p>
-              <p className="text-xs md:text-sm text-gray-400">Version 1.2</p>
-              <span className="text-xs md:text-sm text-gray-400">
-                Size 50mb
-              </span>
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.2 }}
+              className="bg-gray-950 flex flex-col w-full p-10 rounded-xl hover:shadow-sky-700/30 hover:shadow-md transition-all ease-linear duration-300 hover:scale-[1.01]"
+            >
+              <p className="text-2xl text-center md:text-3xl font-bold">AtomOS 11 Standard</p>
+              <p className="text-xs md:text-sm text-gray-400">Good for mid-range hardware</p>
+              <p className="text-xs md:text-sm text-gray-400">Version: 23H2</p>
+              <span className="text-xs md:text-sm text-gray-400">Size: 3.2 GB</span>
               <div className="flex justify-center items-center gap-4 mt-2 flex-wrap">
-                <Link
-                  className=" bg-sky-600 text-white px-4 py-2 rounded-full  block"
-                  to="#"
+                <a
+                  className="bg-sky-600 text-white px-4 py-2 rounded-full block"
+                  href="https://gofile.io/d/UZByx9"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Download
-                </Link>
-                <Link to="#">More</Link>
+                </a>
+                <a href="https://www.youtube.com/watch?v=3BkMGzdfZ9U" target="_blank" rel="noreferrer">More</a>
               </div>
             </m.div>
-         
+
             <m.div
-               initial={{ opacity: 0, y: -20 }}
-               animate={{ opacity: 1, y: 0 }}
-               transition={{ duration: 1, delay: 0.2 }}
-              className="bg-gray-950 flex flex-col w-full  p-10 rounded-xl  hover:shadow-sky-700/30 hover:shadow-md transition-all ease-linear duration-300 hover:scale-[1.01]">
-              <p className="text-2xl text-center md:text-3xl font-bold">Atom Tweaks</p>
-              <p className="text-xs md:text-sm text-gray-400">Version 1.2</p>
-              <span className="text-xs md:text-sm text-gray-400">
-                Size 50mb
-              </span>
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.2 }}
+              className="bg-gray-950 flex flex-col w-full p-10 rounded-xl hover:shadow-sky-700/30 hover:shadow-md transition-all ease-linear duration-300 hover:scale-[1.01]"
+            >
+              <p className="text-2xl text-center md:text-3xl font-bold">AtomOS 11 Standard</p>
+              <p className="text-xs md:text-sm text-gray-400">Good for high-end hardware (UnSupported)</p>
+              <p className="text-xs md:text-sm text-gray-400">Version: 24H2</p>
+              <span className="text-xs md:text-sm text-gray-400">Size: 2.6 GB</span>
               <div className="flex justify-center items-center gap-4 mt-2 flex-wrap">
-                <Link
-                  className=" bg-sky-600 text-white px-4 py-2 rounded-full  block"
-                  to="#"
+                <a
+                  className="bg-sky-600 text-white px-4 py-2 rounded-full block"
+                  href="https://gofile.io/d/7K250C"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Download
-                </Link>
-                <Link to="#">More</Link>
+                </a>
               </div>
             </m.div>
-         
-         
           </div>
         </div>
 
@@ -201,18 +203,16 @@ function DownloadPage() {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
-          className=" gap-10 items-center justify-center content-center"
+          className="gap-10 items-center justify-center content-center"
         >
-          <div className="grid grid-cols-3  border-2 border-gray-200 dark:border-gray-800 rounded-xl overflow-hidden">
+          <div className="grid grid-cols-3 border-2 border-gray-200 dark:border-gray-800 rounded-xl overflow-hidden">
             {versionsNames.map((versionName, index) => (
               <div
                 key={index}
                 onClick={() => setOs(versionName)}
-                className={`truncate text-xs md:text-lg   transition-all duration-300 cursor-pointer  py-4 ${
+                className={`truncate text-xs md:text-lg transition-all duration-300 cursor-pointer py-4 ${
                   os === `${versionName}` && "bg-gray-950"
-                }
-              
-                `}
+                }`}
               >
                 {versionName}
               </div>
