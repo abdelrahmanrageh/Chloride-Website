@@ -62,16 +62,16 @@ export default function HeroSection() {
           className="md:flex flex-col items-center justify-start gap-4 ms-4 hidden"
         >
           <div className="bg-slate-950 rounded-3xl text-3xl p-4 text-center aspect-square flex items-center justify-center flex-col max-w-[100px]">
-            <p className="font-bold">50%</p>
+            <p className="font-bold">Zero</p>
+            <p className="text-xs">Bloatwares</p>
+          </div>
+          <div className="bg-slate-950 rounded-3xl text-3xl p-4 text-center aspect-square flex items-center justify-center flex-col max-w-[100px]">
+            <p className="font-bold">No Defender</p>
             <p className="text-xs">better Ram usage</p>
           </div>
           <div className="bg-slate-950 rounded-3xl text-3xl p-4 text-center aspect-square flex items-center justify-center flex-col max-w-[100px]">
-            <p className="font-bold">50%</p>
-            <p className="text-xs">better Ram usage</p>
-          </div>
-          <div className="bg-slate-950 rounded-3xl text-3xl p-4 text-center aspect-square flex items-center justify-center flex-col max-w-[100px]">
-            <p className="font-bold">50%</p>
-            <p className="text-xs">better Ram usage</p>
+            <p className="font-bold">Advanced</p>
+            <p className="text-xs">better Telemetry</p>
           </div>
         </m.div>
       </div>
