@@ -7,24 +7,29 @@ import { ChevronDown, ChevronUp } from 'lucide-react'
 
 const plans = [
   {
-    name: "Starter",
-    price: 10,
+    name: "Ultimate Subscription",
+    price: 5,
     features: [
-      "Windows Settings Tweaks",
-      "Cpu, Ram, Gpu, Usb Tweaks",
-      "Session time : 40 min",
+      "Discord Ultimate Role",
+      "Access to all of the private ultimate AtomOS Builds",
+      "Access to all of the private ultimate AtomOS Tweaks",
+      "Access to the Atom Tool Box",
+
     ],
     additionalFeatures: [
+"More things to see!"
     ],
   },
   {
     name: "Extreme",
-    price: 19.99,
+    price: 14.99,
     features: [
       "Windows Settings Tweaks",
       "Cpu, Ram, Gpu, Usb Tweaks",
       "Gpu Over Clocking",
       "Custom Windows build make specially for you",
+      "Rebranded AtomOS Builds with your name, files, settings and everything",
+
     ],
     additionalFeatures: [
       "Discord Ultimate subscription role",
@@ -33,16 +38,18 @@ const plans = [
   },
   {
     name: "Ultimate",
-    price: 29.99,
+    price: 19.99,
     features: [
       "Windows Settings Tweaks",
       "Cpu, Ram, Gpu, Usb Tweaks",
       "Gpu Over Clocking",
       "Hidden Bios Tweaks",
       "2 Custom Windows builds make specially for you",
-      "Discord Ultimate subscription role",
+      "2 Rebranded AtomOS Builds with your name, files, settings and everything",
+
     ],
     additionalFeatures: [
+      "Discord Ultimate subscription role",
       "Access to all of Ultimate Private Builds & Tweaks",
       "Access to Premium Atom Tweaking Utiltiy",
       "Session time : ~90 min",
