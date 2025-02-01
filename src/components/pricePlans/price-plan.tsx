@@ -18,7 +18,7 @@ export function PricePlan({ name, price, features, additionalFeatures, expanded 
         <CardTitle className="text-2xl font-bold text-center ">{name}</CardTitle>
       </CardHeader>
       <CardContent className="flex-grow">
-        <div className="text-4xl font-bold text-center mb-6">${price.toFixed(2)}<span className="text-base font-normal">/mo</span></div>
+        <div className="text-4xl font-bold text-center mb-6">${price.toFixed(2)}</div>
         <ul className="space-y-2 mb-2">
           {features.map((feature, index) => (
             <li key={index} className="flex items-center">
