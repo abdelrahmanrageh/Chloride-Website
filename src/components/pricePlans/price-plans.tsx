@@ -22,7 +22,7 @@ const plans = [
   },
   {
     name: "Extreme",
-    price: 14.99,
+    price: 9.99,
     features: [
       "Windows Settings Tweaks",
       "Cpu, Ram, Gpu, Usb Tweaks",
