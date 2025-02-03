@@ -34,7 +34,7 @@ export default function Footer() {
             <div className="flex mt-4 sm:justify-center sm:mt-0">
               {/* Youtube */}
               <a
-                href="https://www.youtube.com/@ChlorideOS/videos"
+                href="https://www.youtube.com/@projectatomos"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
