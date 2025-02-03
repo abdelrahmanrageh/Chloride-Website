@@ -128,6 +128,8 @@ function DownloadPage() {
           >
             Download
           </Link>
+          <Link to="https://www.youtube.com/watch?v=r6mNf4cIfPQ&t=11s">More</Link>
+
         </div>
       </m.div>
 
@@ -148,6 +150,8 @@ function DownloadPage() {
           >
             Download
           </Link>
+          <Link to="https://www.youtube.com/@projectatomos/videos">More</Link>
+
         </div>
       </m.div>
 
