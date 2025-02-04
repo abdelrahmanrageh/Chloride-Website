@@ -5,7 +5,42 @@ export const versionsNames = [
   // "OtherCustomReleases",
   "Archive",
 ];
- 
+
+export const gridData = [
+  {
+    title: "AtomOS 10 Lite",
+    system: "Good for old hardware",
+    version: "Version: 1909",
+    imageSize: "Image size: 1.3 GB",
+    downloadLink: "https://www.mediafire.com/file/4hj024ftj1frcf5/AtomOS_10_Lite_1909_v1.rar/file",
+    moreLink: "https://www.youtube.com/@projectatomos/videos",
+  },
+  {
+    title: "AtomOS 10 Standard",
+    system: "Best for modern hardware",
+    version: "Version: 22H2",
+    imageSize: "Image size: 3.5 GB",
+    downloadLink: "https://qiwi.gg/file/5DET3805-AtomOS1022h2Standard",
+    moreLink: "https://www.youtube.com/@projectatomos/videos",
+  },
+  {
+    title: "AtomOS 11 Lite",
+    system: "Best for old hardware",
+    version: "Version: 24H2",
+    imageSize: "Image size: 1.3 GB",
+    downloadLink: "https://qiwi.gg/file/5DET3805-AtomOS1124H2Lite",
+    moreLink: "https://www.youtube.com/@projectatomos/videos",
+  },
+  {
+    title: "AtomOS 11 Standard",
+    system: "Good for mid-range hardware",
+    version: "Version: 23H2",
+    imageSize: "Image size: 3.2 GB",
+    downloadLink: "https://gofile.io/d/UZByx9",
+    moreLink: "https://www.youtube.com/@projectatomos/videos",
+  },
+  // Add more objects for other grid items
+];
 
 export const versions = {
 
@@ -79,7 +114,7 @@ export const versions = {
     },
   ],
 
-  // OtherCustomReleasesVersions: [
+  
     
 //      {
 //       version: "AtlasOS11 23h2 iso",
