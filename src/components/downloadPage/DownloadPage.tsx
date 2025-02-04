@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 // const
 
 function DownloadPage() {
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  // }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const [os, setOs] = useState(versionsNames[0]);
 
   const Windows10Table = () => {
