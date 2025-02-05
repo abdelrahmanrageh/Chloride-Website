@@ -149,6 +149,13 @@ export const versions = {
 //     ],
   ArchiveVersions: [
     {
+      version: "Atom Edge Remover",
+      suitableFor: "Windows 10, 11",
+      whatsNew: `A professional batch script to completely remove Microsoft Edge, disable updates, and block it from reinstalling.`,
+      price: "Free",
+      link: "https://github.com/ArabWep/Atom-Edge-Remover",
+    },
+    {
       version: "Chloride processes lower",
       suitableFor: "",
       whatsNew: `Get more than 60 cpu process with 1 Sxript!, "Will Disable the Wifi", Pass: 123 .`,
