@@ -9,7 +9,7 @@ export const versionsNames = [
 export const gridData = [
   {
     title: "AtomOS 10 Lite",
-    system: "Good for old hardware",
+    system: "Best for old hardware Without the Windows Defender, Store, languages and features.",
     version: "Version: 1909",
     imageSize: "Image size: 1.3 GB",
     downloadLink: "https://www.mediafire.com/file/4hj024ftj1frcf5/AtomOS_10_Lite_1909_v1.rar/file",
@@ -25,7 +25,7 @@ export const gridData = [
   },
   {
     title: "AtomOS 11 Lite",
-    system: "Best for old hardware",
+    system: "Best for old hardware, With Windows store and xbox.",
     version: "Version: 24H2",
     imageSize: "Image size: 1.3 GB",
     downloadLink: "https://qiwi.gg/file/5DET3805-AtomOS1124H2Lite",
