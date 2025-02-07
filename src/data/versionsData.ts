@@ -21,7 +21,7 @@ export const gridData = [
     version: "Version: 22H2 HomeN",
     imageSize: "Image size: 3.8 GB",
     downloadLink: "https://qiwi.gg/file/exHq6947-AtomOS1022h2HomeNStandard002",
-    moreLink: "https://www.youtube.com",
+    moreLink: "https://www.youtube.com/watch?v=pvJohNoeQyk",
   },
   {
     title: "AtomOS 11 Lite",
