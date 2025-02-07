@@ -45,14 +45,21 @@ export const gridData = [
 export const versions = {
 
   AtomOS10Versions: [
-       {
+  {
+    title: "AtomOS 10 22h2 Home-N Standard",
+    system: "Best for Mid & High-End devices, With the Windows Defender, Store, languages and features. ( User Name : Admin ).",
+    version: "Version: 22H2 HomeN",
+    imageSize: "Image size: 3.8 GB",
+    downloadLink: "https://qiwi.gg/file/exHq6947-AtomOS1022h2HomeNStandard002",
+    moreLink: "https://www.youtube.com/watch?v=pvJohNoeQyk",
+  },
+  {
       version: "AtomOS 10 1909 Lite",
       suitableFor: "The best Windows 10 Build for old hardware",
       whatsNew:"0 bloatwares, Low CPU processes, Low RAM usage, 1.3GB iso",
       price: "Free",
       link: "https://www.mediafire.com/file/4hj024ftj1frcf5/AtomOS_10_Lite_1909_v1.rar/file",
     },  
-
     {
       version: "AtomOS 10 22h2 Standard",
       suitableFor: "Best ChlorideOS 10 Release You can find!",
