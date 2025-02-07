@@ -13,7 +13,7 @@ export const gridData = [
     version: "Version: 1909",
     imageSize: "Image size: 1.3 GB",
     downloadLink: "https://www.mediafire.com/file/4hj024ftj1frcf5/AtomOS_10_Lite_1909_v1.rar/file",
-    moreLink: "https://www.youtube.com/@projectatomos/videos",
+    moreLink: "https://www.youtube.com/watch?v=r6mNf4cIfPQ&t=72s",
   },
   {
     title: "AtomOS 10 Standard",
@@ -28,8 +28,8 @@ export const gridData = [
     system: "Best for old hardware, With Windows store and xbox.",
     version: "Version: 24H2",
     imageSize: "Image size: 1.3 GB",
-    downloadLink: "https://qiwi.gg/file/5DET3805-AtomOS1124H2Lite",
-    moreLink: "https://www.youtube.com/@projectatomos/videos",
+    downloadLink: "https://qiwi.gg/file/saHR5820-AtomOS11Lite24h2v1",
+    moreLink: "https://www.youtube.com/watch?v=_kkl_m3oRgk&t=56s",
   },
   {
     title: "AtomOS 11 Standard",
