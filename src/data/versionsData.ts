@@ -34,10 +34,10 @@ export const gridData = [
   {
     title: "AtomOS 11 Standard",
     system: "Good for mid-range hardware",
-    version: "Version: 23H2",
-    imageSize: "Image size: 3.2 GB",
-    downloadLink: "https://gofile.io/d/UZByx9",
-    moreLink: "https://www.youtube.com/@projectatomos/videos",
+    version: "Version: 24H2",
+    imageSize: "Image size: 3.1 GB",
+    downloadLink: "https://qiwi.gg/file/1pf10526-AtomOS1124h2ProNStandard001",
+    moreLink: "https://www.youtube.com/watch?v=69rUzmQqbkE&t=95s",
   },
   // Add more objects for other grid items
 ];
