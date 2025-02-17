@@ -20,7 +20,7 @@ export const gridData = [
     system: "Best for Mid & High-End devices, With the Windows Defender, Store, languages and features, ( User Name : Admin ).",
     version: "Version: 22H2 HomeN",
     imageSize: "Image size: 3.8 GB",
-    downloadLink: "https://qiwi.gg/file/exHq6947-AtomOS1022h2HomeNStandard002",
+    downloadLink: "https://gofile.io/d/nmQP0j",
     moreLink: "https://www.youtube.com/watch?v=pvJohNoeQyk",
   },
   {
