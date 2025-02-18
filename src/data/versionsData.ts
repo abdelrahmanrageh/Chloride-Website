@@ -20,7 +20,7 @@ export const gridData = [
     system: "Best for Mid & High-End devices, With the Windows Defender, Store, languages and features, ( User Name : Admin ).",
     version: "Version: 22H2 HomeN",
     imageSize: "Image size: 3.8 GB",
-    downloadLink: "https://gofile.io/d/nmQP0j",
+    downloadLink: "https://s-delivery25.mxcontent.net/d/pjpen971ag7pd4d/rqo0yfhswv4dkhu0ccax19txmvl1gyag?ab=0&r=",
     moreLink: "https://www.youtube.com/watch?v=pvJohNoeQyk",
   },
   {
