@@ -24,7 +24,7 @@ export const gridData = [
     moreLink: "https://www.youtube.com/watch?v=pvJohNoeQyk",
   },
   {
-    title: "AtomOS 11 Lite 002",
+    title: "AtomOS 11 Lite",
     system: "Best for old hardware, With Windows store and xbox.",
     version: "Version: 24H2",
     imageSize: "Image size: 1.8 GB",
