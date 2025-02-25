@@ -24,11 +24,11 @@ export const gridData = [
     moreLink: "https://www.youtube.com/watch?v=pvJohNoeQyk",
   },
   {
-    title: "AtomOS 11 Lite",
+    title: "AtomOS 11 Lite 002",
     system: "Best for old hardware, With Windows store and xbox.",
     version: "Version: 24H2",
-    imageSize: "Image size: 1.3 GB",
-    downloadLink: "https://qiwi.gg/file/saHR5820-AtomOS11Lite24h2v1",
+    imageSize: "Image size: 1.8 GB",
+    downloadLink: "https://gofile.io/d/UvpCrr",
     moreLink: "https://www.youtube.com/watch?v=_kkl_m3oRgk&t=56s",
   },
   {
@@ -71,7 +71,15 @@ export const versions = {
 
   AtomOS11Versions: [
     {
-      version: "AtomOS 11 24h2 Lite",
+      version: "AtomOS 11 24h2 Lite 002",
+      suitableFor: "The best Windows 11 Build for old hardware",
+      whatsNew:
+        "Lower CPU processes, Lower RAM usage, extremly debloated, come with Store, Xbox, Powershell, Lower ISO Size ( 1.3GB )",
+      price: "Free",
+      link: "https://gofile.io/d/UvpCrr",
+    },
+    {
+      version: "AtomOS 11 24h2 Lite 001",
       suitableFor: "The best Windows 11 Build for old hardware",
       whatsNew:
         "Lower CPU processes, Lower RAM usage, extremly debloated, come with Store, Xbox, Powershell, Lower ISO Size ( 1.3GB )",
