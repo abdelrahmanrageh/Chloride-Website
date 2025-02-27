@@ -7,6 +7,12 @@ import {
 const questions = [
   {
     question:
+      "How can you subscribe to one of these plans?",
+    answer:
+      "Just join our Discord and open a ticket—I’ll be with you in a minute!",
+  },
+  {
+    question:
       "Why can i need to install AtomOS?",
     answer:
       "Upgrading to a Windows system with 110 fewer background processes and 2GB less RAM usage will elevate your experience to a whole new level.",
