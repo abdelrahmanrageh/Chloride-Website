@@ -8,7 +8,7 @@ import { ChevronDown, ChevronUp } from 'lucide-react'
 const plans = [
   {
     name: "Ultimate Subscription",
-    price: 5,
+    price: 4.99,
     features: [
       "Discord Ultimate Role",
       "Access to all of the private ultimate AtomOS Builds",
