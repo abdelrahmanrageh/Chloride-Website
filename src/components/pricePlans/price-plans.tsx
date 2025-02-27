@@ -21,38 +21,39 @@ const plans = [
     ],
   },
   {
-    name: "Extreme",
-    price: 9.99,
+    name: "Life-Time Atom-Optimization-Tool Subscription",
+    price: 14.99,
     features: [
-      "Windows Settings Tweaks",
-      "Cpu, Ram, Gpu, Usb Tweaks",
-      "Gpu Over Clocking",
-      "Custom Windows build make specially for you",
-      "Rebranded AtomOS Builds with your name, files, settings and everything",
+      "General Tweaks",
+      "Windows Tweaks",
+      "CPU Tweaks",
+      "GPU Tweaks",
+      "RAM Tweaks",
+      "Network Tweaks",
+      "Power Tweaks",
 
     ],
     additionalFeatures: [
-      "Discord Ultimate subscription role",
-      "Session time : ~60 min",
+      "CPU processes Lower",
+      "Timer resolution and more to see !",
     ],
   },
   {
-    name: "Ultimate",
+    name: "Ultimate Optimization Plan",
     price: 19.99,
     features: [
       "Windows Settings Tweaks",
       "Cpu, Ram, Gpu, Usb Tweaks",
       "Gpu Over Clocking",
       "Hidden Bios Tweaks",
-      "2 Custom Windows builds make specially for you",
-      "2 Rebranded AtomOS Builds with your name, files, settings and everything",
+      "Custom Windows build made specially for you",
+      "Rebranded AtomOS Build with your name, files, settings and everything",
 
     ],
     additionalFeatures: [
       "Discord Ultimate subscription role",
       "Access to all of Ultimate Private Builds & Tweaks",
       "Access to Premium Atom Tweaking Utiltiy",
-      "Session time : ~90 min",
     ],
   },
 ]
