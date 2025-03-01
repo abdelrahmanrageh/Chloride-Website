@@ -14,6 +14,7 @@ const plans = [
       "Access to all of the private ultimate AtomOS Builds",
       "Access to all of the private ultimate AtomOS Tweaks",
       "Access to the Atom Tool Box",
+      "30% discount on all Project Atom paid products",
 
     ],
     additionalFeatures: [
@@ -34,8 +35,10 @@ const plans = [
 
     ],
     additionalFeatures: [
+      "The Ultimate Subscription",
       "CPU processes Lower",
       "Timer resolution and more to see !",
+
     ],
   },
   {
@@ -51,7 +54,7 @@ const plans = [
 
     ],
     additionalFeatures: [
-      "Discord Ultimate subscription role",
+      "The Ultimate Subscription",
       "Access to all of Ultimate Private Builds & Tweaks",
       "Access to Premium Atom Tweaking Utiltiy",
     ],
