@@ -172,7 +172,7 @@ export const versions = {
     {
       version: "Chloride processes lower",
       suitableFor: "",
-      whatsNew: `Get more than 60 cpu process with 1 Sxript!, "Will Disable the Wifi", Pass: 123 .`,
+      whatsNew: `Get less than 60 cpu process with 1 Script!, "Will Disable the Wifi", Pass: 123 .`,
       price: "Free",
       link: "https://www.mediafire.com/file/op75cau4qwk9pdj/ChlorideProcessesLower.rar/file",
     },
