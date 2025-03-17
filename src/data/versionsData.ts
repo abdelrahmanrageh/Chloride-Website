@@ -60,10 +60,10 @@ export const versions = {
       link: "https://www.mediafire.com/file/4hj024ftj1frcf5/AtomOS_10_Lite_1909_v1.rar/file",
     },  
     {
-      version: "AtomOS 10 22h2 Standard",
-      suitableFor: "Best ChlorideOS 10 Release You can find!",
+      version: "AtomOS 10 22h2 Standard Ultimate",
+      suitableFor: "Best Windows 10 Build You can find i think",
       whatsNew:
-        "0 bloatwares, 70 CPU processes , Low RAM usage ( 1.0 gb ), Only 5GB of disk usage, 1.5GB iso",
+        "0 bloatwares, 60 CPU processes , Low RAM usage ( 0.8 GB ), Only 4.8 GB of disk usage, 1.9GB iso",
       price: "With Tweaks Ultimate Plan",
       link: "https://chlorideos.netlify.app/",
     },
