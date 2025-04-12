@@ -96,22 +96,22 @@ function DownloadPage() {
             className="bg-gray-950 p-10 rounded-xl  hover:shadow-sky-700/30 hover:shadow-md transition-all duration-300 ease-linear hover:scale-[1.01]"
           >
             <p className="text-2xl md:text-3xl font-bold">
-              Atom Optimization Package
+              AtomOS Tiny11 
             </p>
             <p className="text-xs md:text-sm text-gray-400">
-              Version: 005
+              Version: 24h2
             </p>
             <span className="text-xs md:text-sm text-gray-400">
-              File Size: 80 MB
+              Build Size: 1GB
             </span>
             <div className="flex justify-center items-center gap-4 mt-2">
               <Link
                 className=" bg-sky-600 text-white px-4 py-2 rounded-full  block"
-                to="https://docs.google.com/document/d/1ikPymheS85RhPAUGQUs0bhflVMyIooAySbSQ7e9b8dQ/edit?tab=t.0#heading=h.4x675cxefa7e"
+                to="https://docs.google.com/document/d/1tJ4lO6fCwV3eGh7tdlCiy9ykV4LuC1xyfpToV6iRyYY/edit?tab=t.0"
               >
                 Download
               </Link>
-              <Link to="https://www.youtube.com/watch?v=VoRiRxi8HNk">More</Link>
+              <Link to="https://youtu.be/HI4wwu8IYng">More</Link>
             </div>
           </m.div>
 
