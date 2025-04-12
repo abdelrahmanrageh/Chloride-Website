@@ -107,6 +107,13 @@ export const versions = {
   ],
 
   tweaksVersions: [
+{
+      version: "Atom Optimization Package",
+      suitableFor: "",
+      whatsNew: `Version: 005`,
+      price: "Free",
+      link: "https://docs.google.com/document/d/1ikPymheS85RhPAUGQUs0bhflVMyIooAySbSQ7e9b8dQ/edit?tab=t.0#heading=h.4x675cxefa7e",
+    },
     {
       version: "Chloride Tweaks Standard",
       suitableFor: "",
