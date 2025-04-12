@@ -22,8 +22,8 @@ const plans = [
     ],
   },
   {
-    name: "Life-Time Atom Optimization Tool Subscription",
-    price: 14.99,
+    name: "Life-Time Atom Optimizer Subscription",
+    price: 19.99,
     features: [
       "General Tweaks",
       "Windows Tweaks",
